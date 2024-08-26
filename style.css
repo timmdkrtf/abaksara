@@ -1,0 +1,1897 @@
+body{
+    overflow-x: hidden;
+}
+
+/* nav */
+.navbar.navbar-expand-lg{
+    padding: 30px 0;
+    box-shadow: 0 4px 4px #c4c4c4;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.55);
+    position: fixed;
+    width: 100%;
+    z-index: 999 !important;
+    transition: 0.5s;
+}
+
+.navbar.shrink {
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    column-gap: 40px;
+}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.nav-item.dropdown button{
+    font-size: 18px;
+}
+
+/* beranda */
+
+.beranda{
+    margin-bottom: 50px;
+}
+
+.beranda .container{
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.beranda .container .d-flex{
+    gap: 50px;
+}
+
+.beranda .text-left{
+    width: 50%;
+}
+
+.beranda .text-right{
+    width: 40%;
+}
+
+.beranda .container .text-left h1{
+    font-size: 39px;
+    font-weight: 700;
+}
+.beranda .container .text-left span{
+    color: #FD9425;
+    font-family: "Lato", sans-serif;
+}
+
+.beranda .container .text-left p{
+    font-family: "Open Sans", sans-serif;
+    opacity: 0.75;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.beranda .container .text-left button{
+    font-family: "Open Sans", sans-serif;
+    border-radius: 30px;
+    padding: 10px 18px;
+    background-color: #008DAD;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    margin: 30px 0 0 0;
+}
+
+.beranda .container .bg-right{
+    z-index: 1 !important;
+}
+
+.bg-right img{
+    object-fit: cover;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 0 0 0 50px;
+    width: 570px;
+    height: 650px;
+}
+
+.curve-line-top{
+    position: absolute;
+    right: 0;
+    margin-top: 9px;
+    z-index: 0 !important;
+}
+
+/* tentang kami */
+.tentang-kami{
+    padding: 100px 0;
+    margin: 100px 0;
+}
+
+.tentang-kami .d-flex{
+    column-gap: 40px;
+}
+
+.tentang-kami .logo-left{
+    width: 50%;
+}
+
+.tentang-kami .text-right{
+    padding: 20px 0;
+    width: 50%;
+}
+
+.tentang-kami .text-right h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.tentang-kami .text-right .highlight{
+    display: inline-block;
+    position: relative;
+}
+
+.tentang-kami .text-right .highlight::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 7px;
+    border-radius: 9px;
+    background-color: #FD9425;
+}
+
+.tentang-kami .text-right .text-tentang-kami{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    opacity: 0.75;
+}
+
+.tentang-kami .logo-left{
+    margin: auto 0;
+}
+
+.tentang-kami .d-flex .logo-left img{
+    width: 447px;
+    height: 136px;
+}
+
+.tentang-kami .element-book{
+    width: 158px;
+    height: 143px;
+    position: absolute;
+    right: 0;
+    margin: -170px 110px 0 0;
+}
+
+.tentang-kami .element-curve{
+    width: 630px;
+    height: 300px;
+    position: absolute;
+    margin: -170px 0 0 -40px;
+}
+
+/* merek */
+
+.merek .line-blue{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #008DAD;
+    margin: -20px 0 0 200px;
+    position: relative;
+    z-index: 10 !important;
+}
+
+.merek .title-card{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    margin: 80px 0 0 83px;
+}
+
+.merek .title-card .highlight{
+    display: inline-block;
+    position: relative;
+}
+
+.merek .title-card .highlight::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 7px;
+    border-radius: 9px;
+    background-color: #FD9425;
+}
+
+.merek .d-flex{
+    column-gap: 25px;
+    margin: 50px 0 30px -83px;
+}
+
+.merek .card-merek{
+    width: 25%;
+    text-decoration: none;
+    color: black;
+}
+
+.merek .card-merek .main-card{
+    width: 100%;
+    height: 215px;
+    background-color: #F1F4F5;
+    box-shadow: 0 4px 4px #c4c4c4;
+    border-radius: 10px;
+    margin: -100px 0 150px 0;
+}
+
+.merek .main-card .text{
+    text-align: center;
+    height: 100%;
+    margin: auto 0 0 0;
+    padding: 125px 0 0 0;
+}
+.merek .main-card .text h4{
+    font-family: "Lato", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.merek .main-card .text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.merek .card-merek .logo{
+    text-align: center;
+}
+
+.merek .card-merek .logo img{
+    width: 180px;
+    height: 160px;
+    object-fit: contain;
+    padding: 20px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.merek .element-book img{
+    width: 250px;
+    height: 243px;
+    transform: rotate(60deg);
+    margin: -210px 0 0 50px;
+    position: absolute;
+}
+
+.merek .element-curve img{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin: -200px 0 0 0;
+    right: 0;
+}
+
+/* visi & misi */
+.visi-misi{
+    margin: 60px 0;
+    padding: 50px 0;
+}
+
+.visi-misi .line-blue{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #008DAD;
+    right: 0;
+    margin: 6px 200px 0 0;
+}
+
+.visi-misi .d-flex{
+    column-gap: 40px;
+    margin: 40px 0 0 0;
+}
+
+.visi-misi .left-storyset{
+    text-align: center;
+    width: 50%;
+}
+
+.visi-misi .left-storyset img{
+    width: 450px;
+    height: 470px;
+}
+
+.visi-misi .right-visi-misi{
+    padding: 30px 0;
+    width: 40%;
+}
+
+.visi-misi .right-visi-misi .visi-text h2{
+    font-size: 35px;
+    color: #008DAD;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.visi-misi .right-visi-misi .misi-text h2{
+    font-size: 35px;
+    color: #FD9425;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.visi-misi .right-visi-misi p{
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.visi-misi .right-visi-misi ol li{
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.visi-misi .element-book img{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right: 0;
+    margin: -100px 30px 0 0;
+}
+
+/* nilai perusahaan */
+
+.nilai-perusahaan{
+    margin: 30px 0;
+    padding: 70px 0 80px 0;
+}
+
+.nilai-perusahaan .title{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.nilai-perusahaan .title .highlight{
+    display: inline-block;
+    position: relative;
+}
+
+.nilai-perusahaan .title .highlight::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 7px;
+    border-radius: 9px;
+    background-color: #FD9425;
+}
+
+.nilai-perusahaan .d-flex{
+    column-gap: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.nilai-perusahaan .d-flex .card-nilai{
+    height: 400px;
+    width: 33%;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px #c4c4c4;
+    padding: 30px;
+    z-index: 10 !important;
+}
+
+.nilai-perusahaan .d-flex .card-nilai img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.nilai-perusahaan .d-flex .card-nilai h4{
+    font-size: 26px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    margin-top: 15px;
+}
+.nilai-perusahaan .d-flex .card-nilai p{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/* layanan kami */
+
+.layanan-kami{
+    margin: 60px 0;
+    padding: 80px 0;
+}
+
+.layanan-kami .curve-line-orange-top img{
+    position: absolute;
+    width: 440px;
+    height: 410px;
+    right: 0;
+    margin: -280px 0 0 0;
+}
+.layanan-kami .curve-line-bottom img{
+    position: absolute;
+}
+
+.layanan-kami .title-bg{
+    width: 100%;
+    height: 380px;
+    background-size: cover;
+    background-image: url('image/bg-layanan-kami-cut.png');
+    text-align: center;
+    position: relative;
+    z-index: 9 !important;
+}
+
+.layanan-kami .title-bg h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding-top: 75px;
+}
+
+.layanan-kami .d-flex{
+    text-align: center;
+    column-gap: 30px;
+    margin: -170px 0 0 0;
+    position: relative;
+}
+
+.layanan-kami .card-layanan{
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 4px #c4c4c4;
+    height: 283px;
+    border-radius: 15px;
+    padding: 28px;
+    z-index: 10 !important;
+}
+
+.layanan-kami .card-layanan img{
+    width: 110px;
+    height: 130px;
+    object-fit: contain;
+}
+.layanan-kami .card-layanan p{
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+.layanan-kami .curve-line-orange-bottom img{
+    position: absolute;
+    width: 400px;
+    height: 389px;
+    right: 0;
+    margin: -150px 0 0 0;
+}
+
+/* dewan */
+
+.dewan{
+    margin: 120px 0 0 0;
+    padding: 70px 0;
+}
+
+.dewan .title h2{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    width: 500px;
+}
+
+.dewan .title h2 span{
+    display: inline-block;
+    position: relative;
+    color: #008DAD;
+}
+
+.dewan .title h2 .highlight::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 7px;
+    border-radius: 9px;
+    background-color: #FD9425;
+}
+
+.dewan .d-flex{
+    margin: -60px 0 30px 0;
+    justify-content: space-between;
+}
+
+.dewan .banner-direksi{
+    width: 40%;
+    margin: 60px 0 0 0;
+}
+
+.dewan .banner-direksi img{
+    width: 350px;
+    height: 440px;
+}
+
+
+.banner-direksi .card-banner{
+    width: 390px;
+    height: 200px;
+    box-shadow: 0 4px 4px #c4c4c4;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: -160px 0 0 100px;
+    position: relative;
+}
+
+.dewan .banner-komisaris{
+    width: 40%;
+    text-align: end;
+}
+
+.dewan .banner-komisaris img{
+    width: 350px;
+    height: 440px;
+}
+
+.banner-komisaris .card-banner{
+    width: 420px;
+    height: 225px;
+    box-shadow: 0 4px 4px #c4c4c4;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    margin: -170px 0 0 -80px;
+    position: relative;
+}
+
+.card-banner h3{
+    color: #008DAD;
+    font-size: 31px;
+    font-weight: 800;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.card-banner h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #FD9425;
+    margin: -5px 0 15px 0;
+}
+
+.card-banner p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+}
+
+.mengapa-kami{
+    margin: 50px 0;
+    background-color: #F1F4F5;
+    padding: 30px 0;
+    border-radius: 0 0 0 100px;
+    box-shadow: 0 4px 4px #c4c4c4;
+}
+
+.mengapa-kami .title{
+    text-align: center;
+}
+
+.mengapa-kami .title h2{
+    font-size: 40px;
+    color: #008DAD;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.mengapa-kami .title h2.highlight{
+    color: #FD9425;
+    margin: -11px 0 0 0;
+    width: 100%;
+    text-indent: 130px;
+}
+
+.mengapa-kami .title img{
+    position: absolute;
+    margin: -95px 0 0 130px;
+}
+
+.mengapa-kami .d-flex.top {
+    column-gap: 15px;
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.mengapa-kami .card-content {
+    width: 20%;
+    height: 180px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 5px;
+    position: relative; /* Tambahkan posisi relatif untuk menempatkan elemen anak secara absolut */
+    transition: background-color 0.3s ease;
+}
+
+.mengapa-kami .card-content::after {
+    content: "";
+    position: absolute;
+    bottom: -16px; /* Tempatkan di bawah card-content */
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 9px;
+    border-left: 20px solid transparent; /* Segitiga kiri */
+    border-right: 20px solid transparent; /* Segitiga kanan */
+    border-top: 20px solid orange; /* Segitiga atas dengan warna sama seperti background */
+    transform: translateX(-50%) scaleY(0); /* Mulai dari ukuran nol secara vertikal */
+    transition: transform 0.3s ease; /* Transisi untuk animasi */
+    z-index: 0; /* Letakkan di bawah konten */
+}
+
+.mengapa-kami .card-content::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0; /* Mulai dengan tinggi nol */
+    background-color: orange; /* Warna background saat hover */
+    transition: height 0.3s ease; /* Transisi untuk efek animasi */
+    z-index: 0; /* Letakkan di bawah konten */
+    border-radius: 100px 100px 10px 10px;
+}
+
+.mengapa-kami .card-content:hover::before {
+    height: 60%; /* Munculkan background dari bawah ke atas saat hover */
+}
+
+.mengapa-kami .card-content:hover::after {
+    transform: translateX(-50%) scaleY(1); /* Munculkan segitiga dari atas ke bawah saat hover */
+}
+
+.mengapa-kami .card-content.active::before {
+    height: 70%; /* Tinggi background saat aktif */
+}
+
+.mengapa-kami .card-content.active::after {
+    transform: translateX(-50%) scaleY(1.2); /* Perbesar segitiga saat aktif */
+}
+
+.mengapa-kami .card-content:hover p {
+    color: #FFFFFF;
+    opacity: 1;
+    position: relative;
+}
+.mengapa-kami .card-content.active p {
+    color: #FFFFFF;
+    opacity: 1;
+    position: relative;
+}
+
+.mengapa-kami .card-content p {
+    font-size: 22px;
+    opacity: 0.4;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin: 20px 0 0 0;
+}
+
+.mengapa-kami .card-content .img-icon {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: relative; /* Membuat gambar overlap */
+    height: 60px; /* Sesuaikan dengan ukuran gambar */
+}
+
+.mengapa-kami .card-content .image-wrapper {
+    position: absolute; /* Letakkan gambar secara absolut dalam wrapper */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease; /* Transisi untuk opacity */
+}
+
+.mengapa-kami .card-content .default-wrapper {
+    background-color: transparent; /* Gambar default tidak memiliki latar belakang */
+}
+
+.mengapa-kami .card-content .hover-wrapper {
+    background-color: white; /* Latar belakang warna untuk gambar hover */
+    box-shadow: 0 4px 4px #c4c4c4;
+    height: 130px;
+    border-radius: 20px;
+    margin-top: -70px;
+    opacity: 0; 
+}
+
+.mengapa-kami .card-content:hover .default-wrapper {
+    opacity: 0;
+}
+
+.mengapa-kami .card-content:hover .hover-wrapper {
+    opacity: 1; /* Tampilkan gambar hover saat hover */
+}
+.mengapa-kami .card-content.active .img-icon .hover-wrapper {
+    opacity: 1; /* Tampilkan gambar hover saat hover atau aktif */
+}
+
+.mengapa-kami .card-content .img-icon img {
+    width: 54px;
+    height: 57px;
+    object-fit: contain;
+}
+
+.mengapa-kami .d-flex.bottom {
+    margin: 10px 0;
+    padding: 30px;
+}
+
+.mengapa-kami .d-flex.bottom .text {
+    margin: 30px 0 0 0;
+    width: 50%;
+}
+
+.mengapa-kami .d-flex.bottom .text h4 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+
+.mengapa-kami .d-flex.bottom .text p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1.5px;
+    opacity: 0.8;
+}
+
+.mengapa-kami .d-flex.bottom .img {
+    justify-self: end;
+    text-align: end;
+    width: 50%;
+}
+
+.mengapa-kami .d-flex.bottom .img img {
+    width: 406px;
+    height: 305px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px #c4c4c4;
+}
+
+.mengapa-kami .d-flex.bottom .img .img-absolute img {
+    width: 211px;
+    height: 171px;
+    border-radius: 41px;
+    border: 8px solid #ffffff;
+    position: absolute;
+    margin: -130px 0 0 -470px;
+}
+
+/* klien */
+
+.klien{
+    margin: 30px 0;
+    padding: 70px 0 0 0;
+}
+
+.klien .title{
+    text-align: center;
+}
+
+.klien .title h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #008DAD;
+}
+
+.klien .title h2 span{
+    display: inline-block;
+    position: relative;
+    color: #000000 !important;
+}
+
+.klien .title h2 span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 7px;
+    border-radius: 9px;
+    background-color: #FD9425;
+}
+
+.klien .d-flex{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    margin: 70px 0 50px 0;
+    flex-wrap: wrap;
+}
+
+.klien .d-flex .logo-klien.realtour img{
+    width: 195px;
+    height: 45px;
+}
+.klien .d-flex .logo-klien.mdkrtf img{
+    width: 181px;
+    height: 45px;
+}
+.klien .d-flex .logo-klien.habatour img{
+    width: 215px;
+    height: 45px;
+}
+.klien .d-flex .logo-klien.nyamanin img{
+    width: 191px;
+    height: 45px;
+}
+.klien .d-flex .logo-klien.insan img{
+    width: 147px;
+    height: 141px;
+}
+.klien .d-flex .logo-klien.majlis img{
+    width: 143px;
+    height: 141px;
+}
+
+footer{
+    background-image: url('image/bg-footer.png');
+    height: auto;
+    width: 100%;
+    margin-bottom: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 0 0;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+footer .row h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+footer .row p{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.85;
+    width: 80%;
+}
+
+footer .row h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 7px 0 15px 0;
+}
+footer .row ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .row ul li{
+    opacity: 0.85;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+footer hr{
+    margin-top: 40px;
+}
+
+footer .bottom p{
+    text-align: end;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .bg-right img{
+        width: 500px;
+        height: 670px;
+    }
+    .beranda .container .d-flex{
+        gap: 20px;
+    }
+
+    .beranda .container .text-left h1{
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    .beranda .container .text-left p{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .tentang-kami .text-right .text-tentang-kami{
+        letter-spacing: 1.2px;
+    }
+
+    .tentang-kami .d-flex .logo-left img{
+        width: 410px;
+        height: 126px;
+    }
+
+    .nilai-perusahaan .title{
+        margin-bottom: 20px;
+    }
+
+    .nilai-perusahaan .d-flex{
+        column-gap: 20px;
+    }
+
+    .nilai-perusahaan .d-flex .card-nilai{
+        height: 400px;
+        width: 33%;
+        padding: 30px 20px;
+    }
+
+    .layanan-kami .card-layanan{
+        height: 293px;
+    }
+
+    .layanan-kami .card-layanan p{
+        font-family: "Lato", sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+
+    .mengapa-kami .card-content p{
+        font-size: 20px;
+        opacity: 0.4;
+        font-weight: 500;
+        text-align: center;
+        font-family: "Lato", sans-serif;
+        margin: 20px 0 0 0;
+    }
+
+    .mengapa-kami .card-content .image-wrapper {
+        width: 100px;
+        height: 100%;
+        margin-left: -8px;
+    }
+
+    .mengapa-kami .card-content .hover-wrapper {
+        background-color: white; /* Latar belakang warna untuk gambar hover */
+        box-shadow: 0 4px 4px #c4c4c4;
+        height: 120px;
+        width: 100px;
+        border-radius: 20px;
+        margin-top: -70px;
+        opacity: 0; 
+    }
+
+    .mengapa-kami .d-flex.bottom .col-6.img img {
+        width: 326px;
+        height: 255px;
+    }
+
+    .mengapa-kami .d-flex.bottom .col-6.img .img-absolute img {
+        width: 170px;
+        height: 140px;
+        margin: -90px 0 0 -370px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar.navbar-expand-lg{
+        padding: 30px 0;
+        box-shadow: 0 4px 4px #c4c4c4;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255, 0.75);
+        position: fixed;
+        width: 100%;
+        z-index: 999 !important;
+        transition: 0.5s;
+    }
+
+    .bg-right img{
+        width: 100%;
+        height: 650px;
+        z-index: 0 !important;
+        filter: brightness(75%);
+    }
+    .beranda .text-left{
+        width: 85%;
+        z-index: 10 !important;
+        position: relative;
+        color: white;
+    }
+
+    .beranda .text-right{
+        width: 0%;
+    }
+
+    .beranda .container .text-left p{
+        opacity: 1;
+        margin: 20px 0 0 0;
+    }
+    .beranda .container .text-left button{
+        margin: 60px 0 0 0;
+    }
+
+    .tentang-kami .d-flex{
+        flex-direction: column;
+    }
+
+    .tentang-kami .logo-left{
+        width: 100%;
+    }
+    
+    .tentang-kami .text-right{
+        padding: 20px 0;
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .merek .title-card{
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        position: relative;
+        margin: 80px 0 0 63px;
+    }
+
+    .merek .d-flex{
+        gap: 25px;
+        flex-wrap: wrap;
+        margin: 60px 0 30px -63px;
+        position: relative;
+        z-index: 10 !important;
+    }
+
+    .merek .card-merek{
+        width: 47%;
+    }
+
+    .merek .card-merek .main-card{
+        margin: -100px 0 30px 0;
+    }
+
+    .merek .element-book img{
+        margin: -80px 0 0 50px;
+        width: 210px;
+        height: 200px;
+        z-index: 0 !important;
+    }
+
+    .visi-misi .d-flex{
+        margin: 70px 0 0 0;
+        flex-direction: column-reverse;
+    }
+
+    .visi-misi .left-storyset{
+        display: none;
+    }
+
+    .visi-misi .right-visi-misi{
+        padding: 30px 0;
+        width: 100%;
+    }
+
+    .visi-misi .element-book img{
+        margin: -70px 30px 0 0;
+    }
+
+    .nilai-perusahaan .d-flex{
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .layanan-kami .d-flex{
+        column-gap: 20px;
+    }
+
+    .nilai-perusahaan .d-flex .card-nilai{
+        width: 48%;
+    }
+
+    .layanan-kami .card-layanan{
+        padding: 20px;
+        height: 243px;
+    }
+
+    .layanan-kami .card-layanan img{
+        width: 90px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    .layanan-kami .card-layanan p{
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .dewan{
+        margin: 60px 0 0 0;
+        padding: 70px 0;
+    }
+
+    .dewan .d-flex{
+        margin: -20px 0 30px 0;
+    }
+
+    .dewan .banner-direksi img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .dewan .banner-komisaris img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .banner-direksi .card-banner{
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        margin: -160px 0 0 100px;
+        position: relative;
+    }
+
+    .banner-komisaris .card-banner{
+        width: 300px;
+        height: 240px;
+        padding: 15px;
+        margin: -170px 0 0 -50px;
+    }
+
+    .card-banner h3{
+        color: #008DAD;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .card-banner h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #FD9425;
+        margin: -5px 0 15px 0;
+    }
+
+    .mengapa-kami .d-flex.bottom .img {
+        display: none;
+    }
+
+    .mengapa-kami .d-flex.bottom .text {
+        width: 100%;
+    }
+
+    .mengapa-kami .d-flex.top {
+        column-gap: 15px;
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+    .overflow{
+        height: 270px;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .mengapa-kami .card-content {
+        min-width: 190px;
+        height: 180px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        padding: 30px 5px;
+        position: relative; /* Tambahkan posisi relatif untuk menempatkan elemen anak secara absolut */
+        transition: background-color 0.3s ease;
+    }
+
+    .mengapa-kami .card-content .hover-wrapper {
+        background-color: white; /* Latar belakang warna untuk gambar hover */
+        box-shadow: 0 4px 4px #c4c4c4;
+        height: 130px;
+        border-radius: 20px;
+        margin-top: -70px;
+        margin-left: -5px;
+        opacity: 0; 
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .curve-line-top{
+        margin: -70px 0 0 0;
+    }
+
+    .beranda .container .text-left button{
+        margin: 50px 0 0 0;
+    }
+
+    .tentang-kami{
+        padding: 70px 0;
+        margin: 70px 0;
+    }
+
+    .tentang-kami .text-right h1{
+        font-size: 37px;
+    }
+
+    .tentang-kami .d-flex .logo-left img{
+        width: 370px;
+        height: 116px;
+    }
+
+    .merek .title-card{
+        margin: 80px 0 0 0px;
+        font-size: 37px;
+    }
+
+    .merek .d-flex{
+        margin: 60px 0 30px 0;
+    }
+
+    .merek .element-curve img{
+        width: 370px;
+        height: 270px;
+        margin: -150px 0 0 0;
+    }
+
+    .merek .line-blue{
+        width: 200px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: #008DAD;
+        margin: -20px 0 0 140px;
+        position: relative;
+        z-index: 10 !important;
+    }
+
+    .visi-misi .line-blue{
+        width: 200px;
+        height: 30px;
+        margin: 30px 160px 0 0;
+    }
+
+    .nilai-perusahaan .d-flex .card-nilai{
+        width: 80%;
+    }
+
+    .nilai-perusahaan .title{
+        font-size: 37px;
+    }
+
+    .layanan-kami .title-bg{
+        width: 100%;
+        height: 480px;
+    }
+
+    .layanan-kami .title-bg h2{
+        padding-top: 45px;
+    }
+
+    .layanan-kami .d-flex{
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        margin: -330px 0 0 0;
+    }
+
+    .layanan-kami .card-layanan{
+        width: 47%;
+    }
+
+    .layanan-kami .curve-line-orange-top img{
+        width: 280px;
+        height: 250px;
+        margin: -210px 0 0 0;
+    }
+
+    .layanan-kami .curve-line-orange-bottom img{
+        width: 280px;
+        height: 250px;
+        margin: -175px 0 0 0;
+    }
+
+    .dewan .d-flex{
+        margin: -20px 0 30px 0;
+        flex-direction: column-reverse;
+    }
+
+    .dewan .banner-direksi{
+        width: 100%;
+        margin: 0px 0 0 0;
+    }
+
+    .dewan .banner-komisaris{
+        width: 100%;
+        text-align: end;
+    }
+
+    .dewan .banner-direksi img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .dewan .banner-komisaris img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .banner-direksi .card-banner{
+        width: 350px;
+        height: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        margin: -190px 0 0 100px;
+        position: relative;
+    }
+
+    .banner-komisaris .card-banner{
+        width: 350px;
+        height: 220px;
+        padding: 15px;
+        margin: -170px 0 0 200px;
+    }
+
+    .card-banner h3{
+        color: #008DAD;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .card-banner h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #FD9425;
+        margin: -5px 0 15px 0;
+    }
+
+    .klien .d-flex{
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 50px 0;
+        margin: 70px 0 50px 0;
+        flex-wrap: wrap;
+    }
+
+    .klien .d-flex .logo-klien.realtour img{
+        width: 130px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.mdkrtf img{
+        width: 125px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.habatour img{
+        width: 153px;
+        height: 36px;
+    }
+    .klien .d-flex .logo-klien.nyamanin img{
+        width: 130px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.insan img{
+        width: 100px;
+        height: 94px;
+    }
+    .klien .d-flex .logo-klien.majlis img{
+        width: 100px;
+        height: 94px;
+    }
+
+    .mengapa-kami .title h2{
+        font-size: 37px;
+        color: #008DAD;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+    }
+
+    .mengapa-kami .d-flex.bottom .text {
+        margin: 10px 0 0 0;
+    }
+
+    .mengapa-kami .d-flex.bottom .text p {
+        font-size: 17px;
+        font-weight: 400;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.2px;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .beranda .container .text-left h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .beranda .container .text-left p{
+        opacity: 1;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .beranda .text-left{
+        width: 100%;
+    }
+
+    .curve-line-top{
+        margin: -80px 0 0 0;
+    }
+
+    .bg-right img{
+        height: 600px;
+    }
+
+    .tentang-kami .text-right h1{
+        font-size: 34px;
+    }
+
+    .tentang-kami .element-curve{
+        width: 430px;
+        height: 260px;
+        position: absolute;
+        margin: -170px 0 0 -40px;
+    }
+
+    .tentang-kami .element-curve img{
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .tentang-kami .element-book img{
+        width: 180px;
+        height: 190px;
+        margin: 0px 0px 0 80px;
+    }
+
+    .tentang-kami .text-right .text-tentang-kami{
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .merek .title-card{
+        font-size: 34px;
+    }
+
+    .merek .element-curve img{
+        width: 300px;
+        height: 200px;
+        margin: -70px 0 0 0;
+    }
+    .merek .element-book img{
+        margin: -50px 0 0 20px;
+        width: 180px;
+        height: 167px;
+    }
+
+    .visi-misi .line-blue{
+        width: 160px;
+        height: 20px;
+        margin: 30px 130px 0 0;
+    }
+
+    .visi-misi .element-book img{
+        margin: -50px 30px 0 0;
+    }
+
+    .visi-misi .right-visi-misi .visi-text h2{
+        font-size: 32px;
+    }
+
+    .visi-misi .right-visi-misi .misi-text h2{
+        font-size: 32px;
+    }
+
+    .visi-misi .right-visi-misi p{
+        font-size: 20px;
+    }
+
+    .visi-misi .right-visi-misi ol li{
+        font-size: 20px;
+    }
+
+    .dewan .title h2{
+        font-size: 35px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        width: 100%;
+    }
+
+    .dewan .d-flex{
+        margin: 0px 0 30px 0;
+        flex-direction: column-reverse;
+    }
+
+    .dewan .banner-direksi{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .dewan .banner-komisaris{
+        width: 100%;
+        text-align: end;
+    }
+
+    .dewan .banner-direksi img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .dewan .banner-komisaris img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .banner-direksi .card-banner{
+        width: 70%;
+        height: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        margin: -160px 0 0 70px;
+        position: relative;
+    }
+
+    .banner-komisaris .card-banner{
+        width: 70%;
+        height: 220px;
+        padding: 15px;
+        margin: -170px 0 0 70px;
+    }
+
+    .card-banner h3{
+        color: #008DAD;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .card-banner h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #FD9425;
+        margin: -5px 0 15px 0;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .beranda .container{
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .beranda .container .text-left h1{
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .beranda .container .text-left p{
+        opacity: 1;
+        line-height: 16px;
+    }
+
+    .curve-line-top{
+        margin: -40px 0 0 0;
+    }
+
+    .tentang-kami .text-right h1{
+        font-size: 32px;
+    }
+
+    .tentang-kami .d-flex .logo-left img{
+        width: 280px;
+        height: 90px;
+    }
+
+    .tentang-kami .element-curve img{
+        width: 300px;
+    }
+
+    .tentang-kami .element-curve{
+        width: 300px;
+        height: 260px;
+        position: absolute;
+        margin: -170px 0 0 -40px;
+    }
+
+    .tentang-kami .element-book img{
+        width: 150px;
+        height: 165px;
+        margin: 40px 0px 0 90px;
+    }
+
+    .merek .title-card{
+        font-size: 32px;
+    }
+    .merek .card-merek{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .merek .line-blue{
+        width: 180px;
+        margin: -60px 0 0 80px;
+    }
+
+    .merek .card-merek .main-card{
+        margin: -100px 0 10px 0;
+    }
+
+    .merek .element-book img{
+        display: none;
+    }
+
+    .nilai-perusahaan .d-flex .card-nilai{
+        width: 90%;
+    }
+
+    .nilai-perusahaan .title{
+        font-size: 32px;
+    }
+
+    .layanan-kami .card-layanan{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .dewan .title h2{
+        font-size: 35px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        width: 100%;
+    }
+
+    .dewan .d-flex{
+        margin: 0px 0 30px 0;
+        flex-direction: column-reverse;
+    }
+
+    .dewan .banner-direksi{
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+    .dewan .banner-komisaris{
+        width: 100%;
+        text-align: end;
+    }
+
+    .dewan .banner-direksi img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .dewan .banner-komisaris img{
+        width: 300px;
+        height: 380px;
+    }
+
+    .banner-direksi .card-banner{
+        width: 85%;
+        height: 200px;
+        padding: 15px;
+        border-radius: 10px;
+        margin: -160px 0 0 20px;
+        position: relative;
+    }
+
+    .banner-komisaris .card-banner{
+        width: 85%;
+        height: 220px;
+        padding: 15px;
+        margin: -170px 0 0 20px;
+    }
+
+    .card-banner h3{
+        color: #008DAD;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .card-banner h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #FD9425;
+        margin: -5px 0 15px 0;
+    }
+
+    .card-banner p{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 1.4;
+    }
+
+    .mengapa-kami .title h2.highlight{
+        text-indent: 100px;
+    }
+
+    .mengapa-kami .title img{
+        position: absolute;
+        margin: -95px 0 0 85px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .beranda .container .text-left h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .curve-line-top{
+        margin: -70px 0 0 0;
+    }
+
+    .tentang-kami .text-right h1{
+        font-size: 24px;
+    }
+
+    .tentang-kami .element-curve{
+        width: 200px;
+        height: 260px;
+        position: absolute;
+        margin: -170px 0 0 -40px;
+    }
+
+    .merek .card-merek{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .visi-misi .right-visi-misi p{
+        font-size: 18px;
+    }
+
+    .visi-misi .right-visi-misi ol li{
+        font-size: 18px;
+    }
+
+    .nilai-perusahaan .d-flex .card-nilai{
+        width: 100%;
+    }
+
+    .layanan-kami .curve-line-orange-bottom img{
+        width: 200px;
+        height: 170px;
+        margin: -175px 0 0 0;
+    }
+
+    .layanan-kami .curve-line-orange-top img{
+        width: 220px;
+        height: 190px;
+        margin: -180px 0 0 0;
+    }
+
+    .dewan .title h2{
+        font-size: 35px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        width: 100%;
+    }
+
+    .dewan .d-flex{
+        margin: 0px 0 30px 0;
+        flex-direction: column-reverse;
+    }
+
+    .dewan .banner-direksi{
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+    .dewan .banner-komisaris{
+        width: 100%;
+        text-align: end;
+    }
+
+    .dewan .banner-direksi img{
+        width: 260px;
+        height: 340px;
+    }
+
+    .dewan .banner-komisaris img{
+        width: 260px;
+        height: 340px;
+    }
+
+    .banner-direksi .card-banner{
+        width: 85%;
+        height: auto;
+        padding: 15px;
+        border-radius: 10px;
+        margin: -160px 0 0 20px;
+        position: relative;
+    }
+
+    .banner-komisaris .card-banner{
+        width: 85%;
+        height: auto;
+        padding: 15px;
+        margin: -170px 0 0 20px;
+    }
+
+    .card-banner h3{
+        color: #008DAD;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .card-banner h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        color: #FD9425;
+        margin: -5px 0 15px 0;
+    }
+
+    .card-banner p{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 1.3;
+    }
+}
