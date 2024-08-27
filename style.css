@@ -1027,6 +1027,11 @@ footer .bottom p{
         height: 140px;
         margin: -90px 0 0 -370px;
     }
+
+    .mengapa-kami .d-flex.bottom {
+        margin: 10px 0;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 991px) {
