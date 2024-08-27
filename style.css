@@ -600,8 +600,9 @@ body{
     margin: 50px 0;
     background-color: #F1F4F5;
     padding: 30px 0;
-    border-radius: 0 0 0 130px;
+    border-radius: 0 0 0 115px;
     box-shadow: 0 4px 4px #c4c4c4;
+    height: calc(auto + 30px);
 }
 
 .mengapa-kami .title{
@@ -1456,6 +1457,7 @@ footer .bottom p{
 
     .mengapa-kami .d-flex.bottom .text {
         margin: 10px 0 0 0;
+        padding: 0 20px;
     }
 
     .mengapa-kami .d-flex.bottom .text p {
@@ -1622,6 +1624,11 @@ footer .bottom p{
         font-family: "Lato", sans-serif;
         color: #FD9425;
         margin: -5px 0 15px 0;
+    }
+
+    .mengapa-kami .d-flex.bottom .text {
+        margin: 10px 0 0 0;
+        padding: 0 30px;
     }
 
 }
