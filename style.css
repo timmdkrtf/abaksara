@@ -129,7 +129,7 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .tentang-kami .text-right .highlight{
@@ -141,7 +141,7 @@ body{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: -7px;
     width: 100%;
     height: 7px;
     border-radius: 9px;
