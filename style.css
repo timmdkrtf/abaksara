@@ -524,13 +524,13 @@ body{
 }
 
 .dewan .d-flex{
-    margin: -60px 0 30px 0;
+    margin: 20px 0 30px 0;
     justify-content: space-between;
 }
 
 .dewan .banner-direksi{
     width: 40%;
-    margin: 60px 0 0 0;
+    text-align: end;
 }
 
 .dewan .banner-direksi img{
@@ -546,13 +546,13 @@ body{
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 15px;
-    margin: -160px 0 0 100px;
+    margin: -180px 0 0 0px;
     position: relative;
 }
 
 .dewan .banner-komisaris{
     width: 40%;
-    text-align: end;
+    text-align: start;
 }
 
 .dewan .banner-komisaris img{
@@ -568,7 +568,7 @@ body{
     padding: 20px;
     border-radius: 15px;
     text-align: start;
-    margin: -170px 0 0 -80px;
+    margin: -180px 0 0 80px;
     position: relative;
 }
 
@@ -1176,7 +1176,7 @@ footer .bottom p{
     }
 
     .dewan .d-flex{
-        margin: -20px 0 30px 0;
+        margin: 20px 0 30px 0;
     }
 
     .dewan .banner-direksi img{
@@ -1194,7 +1194,7 @@ footer .bottom p{
         height: 200px;
         padding: 15px;
         border-radius: 10px;
-        margin: -160px 0 0 100px;
+        margin: -160px 0 0 0px;
         position: relative;
     }
 
@@ -1202,7 +1202,7 @@ footer .bottom p{
         width: 300px;
         height: 240px;
         padding: 15px;
-        margin: -170px 0 0 -50px;
+        margin: -170px 0 0 80px;
     }
 
     .card-banner h3{
@@ -1358,18 +1358,19 @@ footer .bottom p{
     }
 
     .dewan .d-flex{
-        margin: -20px 0 30px 0;
-        flex-direction: column-reverse;
+        margin: 20px 0 30px 0;
+        flex-direction: column;
     }
 
     .dewan .banner-direksi{
         width: 100%;
         margin: 0px 0 0 0;
+        text-align: end;
     }
 
     .dewan .banner-komisaris{
         width: 100%;
-        text-align: end;
+        text-align: start;
     }
 
     .dewan .banner-direksi img{
@@ -1387,7 +1388,7 @@ footer .bottom p{
         height: 200px;
         padding: 15px;
         border-radius: 10px;
-        margin: -190px 0 0 100px;
+        margin: -160px 0 0 150px;
         position: relative;
     }
 
@@ -1395,7 +1396,7 @@ footer .bottom p{
         width: 350px;
         height: 220px;
         padding: 15px;
-        margin: -170px 0 0 200px;
+        margin: -180px 0 0 150px;
     }
 
     .card-banner h3{
@@ -1570,18 +1571,18 @@ footer .bottom p{
     }
 
     .dewan .d-flex{
-        margin: 0px 0 30px 0;
-        flex-direction: column-reverse;
+        margin: 20px 0 30px 0;
     }
 
     .dewan .banner-direksi{
         width: 100%;
         margin: 20px 0 0 0;
+        text-align: end;
     }
 
     .dewan .banner-komisaris{
         width: 100%;
-        text-align: end;
+        text-align: start;
     }
 
     .dewan .banner-direksi img{
@@ -1605,7 +1606,7 @@ footer .bottom p{
 
     .banner-komisaris .card-banner{
         width: 70%;
-        height: 220px;
+        height: 230px;
         padding: 15px;
         margin: -170px 0 0 70px;
     }
@@ -1721,8 +1722,7 @@ footer .bottom p{
     }
 
     .dewan .d-flex{
-        margin: 0px 0 30px 0;
-        flex-direction: column-reverse;
+        margin: 20px 0 30px 0;
     }
 
     .dewan .banner-direksi{
@@ -1732,7 +1732,6 @@ footer .bottom p{
 
     .dewan .banner-komisaris{
         width: 100%;
-        text-align: end;
     }
 
     .dewan .banner-direksi img{
@@ -1854,8 +1853,7 @@ footer .bottom p{
     }
 
     .dewan .d-flex{
-        margin: 0px 0 30px 0;
-        flex-direction: column-reverse;
+        margin: 20px 0 30px 0;
     }
 
     .dewan .banner-direksi{
@@ -1865,7 +1863,6 @@ footer .bottom p{
 
     .dewan .banner-komisaris{
         width: 100%;
-        text-align: end;
     }
 
     .dewan .banner-direksi img{
