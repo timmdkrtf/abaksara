@@ -875,6 +875,21 @@ body{
     width: 143px;
     height: 141px;
 }
+.klien .d-flex .logo-klien.AYP img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+.klien .d-flex .logo-klien.TMC img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+.klien .d-flex .logo-klien.TMF img{
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
 
 footer{
     background-image: url('image/bg-footer.png');
@@ -1434,7 +1449,7 @@ footer .bottom p{
     }
     .klien .d-flex .logo-klien.habatour img{
         width: 153px;
-        height: 36px;
+        height: 30px;
     }
     .klien .d-flex .logo-klien.nyamanin img{
         width: 130px;
@@ -1447,6 +1462,18 @@ footer .bottom p{
     .klien .d-flex .logo-klien.majlis img{
         width: 100px;
         height: 94px;
+    }
+    .klien .d-flex .logo-klien.AYP img{
+        width: 120px;
+        height: 110px;
+    }
+    .klien .d-flex .logo-klien.TMC img{
+        width: 120px;
+        height: 110px;
+    }
+    .klien .d-flex .logo-klien.TMF img{
+        width: 120px;
+        height: 110px;
     }
 
     .mengapa-kami .title h2{
@@ -1917,5 +1944,42 @@ footer .bottom p{
         font-family: "Lato", sans-serif;
         letter-spacing: 0.5px;
         line-height: 1.3;
+    }
+
+    .klien .d-flex .logo-klien.realtour img{
+        width: 120px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.mdkrtf img{
+        width: 115px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.habatour img{
+        width: 143px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.nyamanin img{
+        width: 110px;
+        height: 30px;
+    }
+    .klien .d-flex .logo-klien.insan img{
+        width: 90px;
+        height: 94px;
+    }
+    .klien .d-flex .logo-klien.majlis img{
+        width: 90px;
+        height: 94px;
+    }
+    .klien .d-flex .logo-klien.AYP img{
+        width: 110px;
+        height: 50px;
+    }
+    .klien .d-flex .logo-klien.TMC img{
+        width: 110px;
+        height: 50px;
+    }
+    .klien .d-flex .logo-klien.TMF img{
+        width: 110px;
+        height: 50px;
     }
 }
