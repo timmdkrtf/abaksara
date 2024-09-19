@@ -38,8 +38,12 @@ body{
     z-index: 0 !important;
 }
 
+.book .container{
+    padding: 35px 0 0 0;
+}
+
 .book .d-flex {
-    margin: 100px 0 0 0;
+    margin: 30px 0 0 0;
     justify-content: space-between;
     position: relative;
     z-index: 10 !important;
@@ -56,6 +60,7 @@ body{
 .book .right img{
     width: 250px;
     height: 365px;
+    box-shadow: 1px 1px #c4c4c4, -1px -1px #c4c4c4;
 }
 
 .book .left{
