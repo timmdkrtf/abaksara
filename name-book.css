@@ -35,11 +35,16 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 0 !important;
+    z-index: -1 !important;
 }
 
 .book .container{
     padding: 35px 0 0 0;
+}
+
+.book .breadcrumb{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
 
 .book .d-flex {
@@ -69,18 +74,18 @@ body{
 .book .left h4{
     font-size: 24px;
     font-weight: 300;
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .book .left h2{
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 600;
     font-family: "Lato", sans-serif;
     opacity: 0.83;
 }
 
 .book .left p{
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 0.7px;
@@ -102,23 +107,37 @@ body{
 
 @media  screen and (max-width: 768px) {
 
+    .curve-line img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -100px;
+        width: 50%;
+        z-index: -1 !important;
+    }
+
+    .book .container{
+        padding: 15px 0 0 0;
+    }
+
     .book{
         padding: 20px;
     }
 
     .book .d-flex{
         flex-direction: column-reverse;
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
     }
 
     .book .right{
         display: flex;
         flex-direction: row;
-        margin: 0 0 0 270px;
+        margin: 0 0 0 0px;
+        width: 100%;
     }
 
     .book .right img{
-        width: 100%;
+        width: 48%;
         height: auto;
     }
 
@@ -128,6 +147,23 @@ body{
 }
 
 @media screen and (max-width: 576px) {
+
+    .curve-line img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -40px;
+        width: 50%;
+        z-index: -1 !important;
+    }
+
+    .book .left h2{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Lato", sans-serif;
+        opacity: 0.83;
+    }
+
     .book .right{
         display: flex;
         flex-direction: row;
@@ -135,7 +171,7 @@ body{
         width: 100%;
     }
     .book .right img{
-        width: 50%;
+        width: 48%;
         height: auto;
     }
 
