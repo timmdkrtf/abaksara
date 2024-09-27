@@ -173,6 +173,11 @@ body{
     height: 136px;
 }
 
+.tentang-kami .d-flex .logo.right img{
+    width: 420px;
+    height: 175px;
+}
+
 .tentang-kami .element-book img{
     width: 178px;
     height: 160px;
@@ -918,7 +923,7 @@ body{
 }
 
 footer{
-    background-image: url('image/bg-footer.png');
+    background-image: url('image/bg-footer2.png');
     height: auto;
     width: 100%;
     margin-bottom: -20px;
@@ -956,7 +961,7 @@ footer .row ul{
 }
 
 footer .row ul li{
-    opacity: 0.85;
+    opacity: 1;
     font-size: 16px;
     font-weight: 300;
     padding: 5px;
@@ -1022,6 +1027,11 @@ footer .bottom p{
     .tentang-kami .d-flex .logo img{
         width: 410px;
         height: 126px;
+    }
+
+    .tentang-kami .d-flex .logo.right img{
+        width: 400px;
+        height: 156px;
     }
 
     .nilai-perusahaan .title{
@@ -1155,6 +1165,11 @@ footer .bottom p{
     .tentang-kami .d-flex .logo img{
         width: 340px;
         height: 110px;
+    }
+
+    .tentang-kami .d-flex .logo.right img{
+        width: 340px;
+        height: 150px;
     }
     
     .tentang-kami .text{
@@ -1363,6 +1378,11 @@ footer .bottom p{
     .tentang-kami .d-flex .logo img{
         width: 300px;
         height: 90px;
+    }
+
+    .tentang-kami .d-flex .logo.right img{
+        width: 300px;
+        height: 130px;
     }
 
     .merek .title-card{
@@ -1925,6 +1945,10 @@ footer .bottom p{
     .tentang-kami .d-flex .logo img {
         width: 260px;
         height: 80px;
+    }
+    .tentang-kami .d-flex .logo.right img {
+        width: 260px;
+        height: 100px;
     }
 
     .merek .card-merek{
