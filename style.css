@@ -36,7 +36,6 @@ body{
 }
 
 /* beranda */
-
 .beranda{
     margin-bottom: 50px;
 }
@@ -891,7 +890,7 @@ body{
     height: 45px;
 }
 .klien .d-flex .logo-klien.habatour img{
-    width: 230px;
+    width: 235px;
     height: 45px;
 }
 .klien .d-flex .logo-klien.nyamanin img{
@@ -899,12 +898,12 @@ body{
     height: 45px;
 }
 .klien .d-flex .logo-klien.insan img{
-    width: 147px;
-    height: 141px;
+    width: 130px;
+    height: 127px;
 }
 .klien .d-flex .logo-klien.majlis img{
-    width: 143px;
-    height: 141px;
+    width: 130px;
+    height: 127px;
 }
 .klien .d-flex .logo-klien.AYP img{
     object-fit: contain;
