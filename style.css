@@ -1559,7 +1559,8 @@ footer .bottom p{
 @media screen and (max-width: 576px) {
     .beranda .container .text-left h1{
         font-size: 32px;
-        font-weight: 500;
+        font-weight: 600;
+        margin-top: -20px;
     }
 
     .beranda .container .text-left p{
@@ -1729,13 +1730,13 @@ footer .bottom p{
 
 @media screen and (max-width: 450px) {
     .beranda .container{
-        padding-top: 140px;
+        padding-top: 150px;
         padding-bottom: 50px;
     }
 
     .beranda .container .text-left h1{
         font-size: 28px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .beranda .container .text-left p{
@@ -1889,7 +1890,7 @@ footer .bottom p{
 
     .beranda .container .text-left h1{
         font-size: 26px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .curve-line-top{
