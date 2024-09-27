@@ -84,6 +84,11 @@ body{
     font-size: 17px;
     border: none;
     margin: 30px 0 0 0;
+    transition: 0.3s;
+}
+
+.beranda .container .text-left button:hover{
+    box-shadow: 0 4px 0 0 #FD9425;
 }
 
 .beranda .container .bg-right{
@@ -110,35 +115,42 @@ body{
 /* tentang kami */
 .tentang-kami{
     padding: 100px 0;
-    margin: 100px 0;
+    margin: 50px 0;
+}
+
+.tentang-kami.penerbit{
+    padding: 70px 0;
+    margin: 40px 0;
 }
 
 .tentang-kami .d-flex{
     column-gap: 40px;
+    justify-content: space-between;
 }
 
-.tentang-kami .logo-left{
-    width: 50%;
+.tentang-kami .logo{
+    width: 45%;
+    margin: auto 0;
 }
 
-.tentang-kami .text-right{
+.tentang-kami .text{
     padding: 20px 0;
     width: 50%;
 }
 
-.tentang-kami .text-right h1{
+.tentang-kami .text h1{
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom: 20px;
 }
 
-.tentang-kami .text-right .highlight{
+.tentang-kami .text .highlight{
     display: inline-block;
     position: relative;
 }
 
-.tentang-kami .text-right .highlight::after{
+.tentang-kami .text .highlight::after{
     content: '';
     position: absolute;
     left: 0;
@@ -149,35 +161,30 @@ body{
     background-color: #FD9425;
 }
 
-.tentang-kami .text-right .text-tentang-kami{
+.tentang-kami .text .text-tentang-kami{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     letter-spacing: 1.5px;
     opacity: 0.75;
 }
 
-.tentang-kami .logo-left{
-    margin: auto 0;
-}
-
-.tentang-kami .d-flex .logo-left img{
+.tentang-kami .d-flex .logo img{
     width: 447px;
     height: 136px;
 }
 
-.tentang-kami .element-book{
-    width: 158px;
-    height: 143px;
+.tentang-kami .element-book img{
+    width: 178px;
+    height: 160px;
     position: absolute;
     right: 0;
-    margin: -170px 110px 0 0;
+    margin: -50px 90px 0 0;
 }
 
 .tentang-kami .element-curve{
-    width: 630px;
-    height: 300px;
+
     position: absolute;
-    margin: -170px 0 0 -40px;
+    margin: -120px 0 0 -40px;
 }
 
 /* merek */
@@ -476,6 +483,18 @@ body{
     border-radius: 20px;
     padding: 28px;
     z-index: 10 !important;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.layanan-kami .card-layanan:hover{
+    margin: -10px 0 0 0;
+    box-shadow: 0 4px 4px #FD9425;
+}
+
+.layanan-kami .card-layanan:hover img{
+    filter: drop-shadow(0 1px 0 #008DAD);
 }
 
 .layanan-kami .card-layanan img{
@@ -943,6 +962,15 @@ footer .row ul li{
     padding: 5px;
 }
 
+footer .row .link-contact a{
+    transition: 0.3s;
+}
+
+footer .row .link-contact a:hover{
+    margin: 0 0 0 10px;
+    text-decoration: dashed !important;
+}
+
 footer hr{
     margin-top: 40px;
 }
@@ -962,9 +990,7 @@ footer .bottom p{
         padding: 70px 0 0 0;
         width: 100%;
     }
-    
 }
-
 
 @media screen and (max-width: 1200px) {
     .bg-right img{
@@ -985,11 +1011,15 @@ footer .bottom p{
         letter-spacing: 1px;
     }
 
-    .tentang-kami .text-right .text-tentang-kami{
+    .tentang-kami .text h1{
+        font-size: 35px;
+    }
+
+    .tentang-kami .text .text-tentang-kami{
         letter-spacing: 1.2px;
     }
 
-    .tentang-kami .d-flex .logo-left img{
+    .tentang-kami .d-flex .logo img{
         width: 410px;
         height: 126px;
     }
@@ -1100,15 +1130,33 @@ footer .bottom p{
         margin: 60px 0 0 0;
     }
 
+    .tentang-kami{
+        margin: 100px 0 50px 0;
+    }
+
+    .tentang-kami.penerbit{
+        padding: 30px 0 70px 0;
+        margin: 40px 0;
+    }    
+
     .tentang-kami .d-flex{
         flex-direction: column;
     }
 
-    .tentang-kami .logo-left{
+    .tentang-kami .d-flex.bottom{
+        flex-direction: column-reverse;
+    }
+
+    .tentang-kami .logo{
         width: 100%;
     }
+
+    .tentang-kami .d-flex .logo img{
+        width: 340px;
+        height: 110px;
+    }
     
-    .tentang-kami .text-right{
+    .tentang-kami .text{
         padding: 20px 0;
         margin: 30px 0;
         width: 100%;
@@ -1299,17 +1347,17 @@ footer .bottom p{
     }
 
     .tentang-kami{
-        padding: 70px 0;
+        padding: 50px 0 60px 0;
         margin: 70px 0;
     }
 
-    .tentang-kami .text-right h1{
+    .tentang-kami .text h1{
         font-size: 37px;
     }
 
-    .tentang-kami .d-flex .logo-left img{
-        width: 370px;
-        height: 116px;
+    .tentang-kami .d-flex .logo img{
+        width: 300px;
+        height: 90px;
     }
 
     .merek .title-card{
@@ -1328,11 +1376,11 @@ footer .bottom p{
     }
 
     .merek .line-blue{
-        width: 200px;
+        width: 280px;
         height: 30px;
         border-radius: 50px;
         background-color: #008DAD;
-        margin: -20px 0 0 140px;
+        margin: -20px 0 0 210px;
         position: relative;
         z-index: 10 !important;
     }
@@ -1532,32 +1580,30 @@ footer .bottom p{
         height: 600px;
     }
 
-    .tentang-kami .text-right h1{
+    .tentang-kami .text h1{
         font-size: 34px;
-    }
-
-    .tentang-kami .element-curve{
-        width: 430px;
-        height: 260px;
-        position: absolute;
-        margin: -170px 0 0 -40px;
     }
 
     .tentang-kami .element-curve img{
         width: 400px;
-        margin-top: 50px;
+        margin: -0px 0 0 0;
     }
 
     .tentang-kami .element-book img{
-        width: 180px;
-        height: 190px;
-        margin: 0px 0px 0 80px;
+        width: 160px;
+        height: 170px;
+        margin: -50px 0px 0 80px;
     }
 
-    .tentang-kami .text-right .text-tentang-kami{
+    .tentang-kami .text .text-tentang-kami{
         font-family: "Open Sans", sans-serif;
         font-size: 14px;
         letter-spacing: 1px;
+    }
+
+    .tentang-kami .text h1 .highlight::after{
+        bottom: -2px;
+        height: 5px;
     }
 
     .merek .title-card{
@@ -1573,6 +1619,11 @@ footer .bottom p{
         margin: -50px 0 0 20px;
         width: 180px;
         height: 167px;
+    }
+
+    .merek .line-blue{
+        margin: -70px 0 0 130px;
+        width: 250px;
     }
 
     .visi-misi .line-blue{
@@ -1696,11 +1747,16 @@ footer .bottom p{
         margin: -40px 0 0 0;
     }
 
-    .tentang-kami .text-right h1{
+    .tentang-kami .text h1{
         font-size: 32px;
     }
 
-    .tentang-kami .d-flex .logo-left img{
+    .tentang-kami {
+        padding: 80px 0 60px 0;
+        margin: 70px 0;
+    }
+
+    .tentang-kami .d-flex .logo img{
         width: 280px;
         height: 90px;
     }
@@ -1709,17 +1765,10 @@ footer .bottom p{
         width: 300px;
     }
 
-    .tentang-kami .element-curve{
-        width: 300px;
-        height: 260px;
-        position: absolute;
-        margin: -170px 0 0 -40px;
-    }
-
     .tentang-kami .element-book img{
-        width: 150px;
-        height: 165px;
-        margin: 40px 0px 0 90px;
+        width: 120px;
+        height: 130px;
+        margin: -70px 0px 0 90px;
     }
 
     .merek .title-card{
@@ -1732,7 +1781,7 @@ footer .bottom p{
 
     .merek .line-blue{
         width: 180px;
-        margin: -60px 0 0 80px;
+        margin: -110px 0 0 90px;
     }
 
     .merek .card-merek .main-card{
@@ -1847,7 +1896,7 @@ footer .bottom p{
         margin: -70px 0 0 0;
     }
 
-    .tentang-kami .text-right h1{
+    .tentang-kami .text h1{
         font-size: 24px;
     }
 
@@ -1861,6 +1910,11 @@ footer .bottom p{
     .merek .card-merek{
         width: 90%;
         margin: 0 auto;
+    }
+
+    .merek .line-blue{
+        width: 180px;
+        margin: -160px 0 0 90px;
     }
 
     .visi-misi .right-visi-misi p{
