@@ -489,8 +489,8 @@ body{
 }
 
 .layanan-kami .card-layanan:hover{
-    margin: -10px 0 0 0;
     box-shadow: 0 4px 4px #FD9425;
+    scale: 1.1;
 }
 
 .layanan-kami .card-layanan:hover img{
@@ -1194,6 +1194,10 @@ footer .bottom p{
         z-index: 0 !important;
     }
 
+    .merek .line-blue{
+        margin-top: 150px;
+    }
+
     .visi-misi .d-flex{
         margin: 70px 0 0 0;
         flex-direction: column-reverse;
@@ -1381,7 +1385,7 @@ footer .bottom p{
         height: 30px;
         border-radius: 50px;
         background-color: #008DAD;
-        margin: -20px 0 0 210px;
+        margin: 0px 0 0 210px;
         position: relative;
         z-index: 10 !important;
     }
@@ -1629,7 +1633,7 @@ footer .bottom p{
     }
 
     .merek .line-blue{
-        margin: -70px 0 0 130px;
+        margin: -50px 0 0 130px;
         width: 250px;
     }
 
