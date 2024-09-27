@@ -1098,7 +1098,7 @@ footer .bottom p{
         box-shadow: 0 4px 4px #c4c4c4;
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(255, 255, 255, 0.9);
         position: fixed;
         width: 100%;
         z-index: 999 !important;
@@ -1557,6 +1557,12 @@ footer .bottom p{
 }
 
 @media screen and (max-width: 576px) {
+
+    .beranda .container {
+        padding-top: 160px;
+        padding-bottom: 50px;
+    }
+
     .beranda .container .text-left h1{
         font-size: 32px;
         font-weight: 600;
@@ -1564,7 +1570,7 @@ footer .bottom p{
 
     .beranda .container .text-left p{
         opacity: 1;
-        line-height: 22px;
+        line-height: 20px;
         font-size: 14px;
     }
 
@@ -1892,7 +1898,7 @@ footer .bottom p{
     }
 
     .beranda .container .text-left h1{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 600;
     }
 
@@ -1909,6 +1915,11 @@ footer .bottom p{
         height: 260px;
         position: absolute;
         margin: -170px 0 0 -40px;
+    }
+
+    .tentang-kami .d-flex .logo img {
+        width: 260px;
+        height: 80px;
     }
 
     .merek .card-merek{
