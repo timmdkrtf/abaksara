@@ -84,7 +84,8 @@ body{
 
 .book .content .cover{
     width: 30%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .book .content .cover img{
@@ -96,8 +97,10 @@ body{
     background-color: #B36B53;
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
-    padding: 8px 18px;
-    font-size: 14px;
+    padding: 6px 18px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 13px;
 }
 
 .book .content .detail{
@@ -311,15 +314,17 @@ body{
     .book .content{
         flex-direction: column;
         gap: 50px;
+        margin: 30px 0 50px 0;
     }
 
     .book .content .cover{
         width: 100%;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .book .content .cover img{
-        width: 70%;
+        width: 60%;
     }
 
     .book .content .detail{
@@ -340,6 +345,6 @@ body{
     }
 
     .book .content .cover img{
-        width: 80%;
+        width: 70%;
     }
 }
