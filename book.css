@@ -5,6 +5,7 @@ body{
 .wave img{
     width: 100%;
     position: absolute;
+    height: 100px;
     z-index: 0 !important;
     margin-top: -50px;
 }
@@ -36,6 +37,16 @@ body{
 .navbar-nav .nav-link{
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
+}
+
+.container .breadcrumb li{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.container .breadcrumb .breadcrumb-item a{
+    color: black !important;
 }
 
 .container.content{

@@ -5,6 +5,7 @@ body{
 .wave img{
     width: 100%;
     position: absolute;
+    height: 100px;
     z-index: 0 !important;
     margin-top: -50px;
 }
@@ -33,75 +34,249 @@ body{
 
 .curve-line img{
     position: absolute;
-    top: 0;
+    top: -80px;
     right: 0;
     z-index: -1 !important;
 }
+
+.modal .modal-header{
+    padding: 15px 25px;
+}
+
+.modal .modal-title{
+    font-family: "Lato", sans-serif;
+}
+
+.modal .modal-body{
+    padding: 25px !important;
+}
+
+.modal .modal-body p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    word-spacing: 2px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.container .breadcrumb li{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.container .breadcrumb .breadcrumb-item a{
+    color: black !important;
+}
+
 
 .book .container{
     padding: 35px 0 0 0;
 }
 
-.book .breadcrumb{
+.book .content{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.book .content .cover{
+    width: 30%;
+    text-align: center;
+}
+
+.book .content .cover img{
+    width: 100%;
+}
+
+.book .content .detail{
+    width: 55%;
+    position: relative;
+}
+
+.book .content .detail small{
     font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    opacity: 0.6;
     font-size: 14px;
 }
 
-.book .d-flex {
-    margin: 30px 0 0 0;
-    justify-content: space-between;
-    position: relative;
-    z-index: 10 !important;
-}
-
-.book .right{
-    display: flex;
-    justify-content: end;
-    column-gap: 20px;
-    margin: 90px 0 0 0;
-    width: 50%;
-}
-
-.book .right img{
-    width: 250px;
-    height: 365px;
-    box-shadow: 1px 1px #c4c4c4, -1px -1px #c4c4c4;
-}
-
-.book .left{
-    width: 40%;
-}
-.book .left h4{
-    font-size: 24px;
-    font-weight: 300;
-    font-family: "Open Sans", sans-serif;
-}
-
-.book .left h2{
-    font-size: 35px;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    opacity: 0.83;
-}
-
-.book .left p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 0.7px;
-    text-align: justify;
+.book .content .detail h2{
+    font-weight: 800;
     opacity: 0.8;
+    font-family: "Lato", sans-serif;
+}
+
+.book .content .detail .title{
+    margin: 25px 0 10px 0;
+}
+
+.book .content .detail .title h6{
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.book .content .detail .harga{
+    display: flex;
+    align-items: end;
+}
+.book .content .detail .harga h4{
+    opacity: 1;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.book .content .detail .harga h6{
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-size: 14px;
+    margin: 0 0 12px 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.book .content .detail .jenis-buku{
+    margin: 30px 0 50px 0;
+}
+
+.book .content .detail .jenis-buku h6{
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.book .content .detail .jenis-buku .button{
+    display: flex;
+    gap: 15px;
+    margin: 15px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.book .content .detail .jenis-buku .button button{
+    border: 1px solid grey;
+    padding: 5px 14px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.book .content .detail .jenis-buku .button button:hover{
+    border: 1px solid #008DAD;
+    color: #008DAD;
+    box-shadow: 0 2px 0 0 #FD9425;
+}
+
+.book .content .detail .jenis-buku .button button.active{
+    border: 1px solid #008DAD;
+    background-color: #008DAD;
+    color: #ffffff;
+    box-shadow: 2px 2px 0 0 #FD9425;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.book .content .detail a button{
+    border: none;
+    background-color: #ffffff;
+    border: 1px solid #008DAD;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #008DAD;
+    transition: 0.3s ease-in-out;
+}
+
+.book .content .detail a button:hover{
+    background-color: #ffffff;
+    border: 1px solid #008DAD;
+    background-color: #008DAD;
+    box-shadow: 0 3px 0 0 #FD9425;
+    color: #ffffff;
+    margin: 0 0 0 5px;
+}
+
+.book .content .detail a button svg{
+    margin: -3px 3px 0 0;
+}
+
+.book .content .detail .deskripsi{
+    margin: 50px 0;
+}
+
+.book .content .detail .deskripsi h6{
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.book .content .detail .deskripsi p{
+    text-align: justify;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.book .content .detail .deskripsi button{
+    border: none;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: -15px;
+    text-decoration: underline;
+}
+.book .content .detail .info-footer{
+    margin: 80px 0 0 0;
+}
+
+.book .content .detail .info-footer h6{
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.book .content .detail .info-footer .flex-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 15px 0 0 0;
+}
+
+.book .content .detail .info-footer .flex-info .text{
+    width: calc(50% - 10px);
+}
+
+.book .content .detail .info-footer .flex-info .text h6{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    font-family: "Lato", sans-serif;
+}
+
+.book .content .detail .info-footer .flex-info .text p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -5px;
+}
+
+@media  screen and (max-width: 1200px){
+
 }
 
 @media  screen and (max-width: 991px) {
-    .book .right{
-        display: block;
-        margin: 90px 0 0 0;
-    }
-
-    .book .right img{
-        width: 100%;
-        height: auto;
+    .book .content .cover{
+        width: 35%;
+        text-align: center;
     }
 }
 
@@ -124,25 +299,23 @@ body{
         padding: 20px;
     }
 
-    .book .d-flex{
-        flex-direction: column-reverse;
-        margin: 40px 0 0 0;
+    .book .content{
+        flex-direction: column;
+        gap: 50px;
     }
 
-    .book .right{
-        display: flex;
-        flex-direction: row;
-        margin: 0 0 0 0px;
+    .book .content .cover{
         width: 100%;
+        text-align: center;
     }
 
-    .book .right img{
-        width: 48%;
-        height: auto;
+    .book .content .cover img{
+        width: 60%;
     }
 
-    .book .left{
+    .book .content .detail{
         width: 100%;
+        position: relative;
     }
 }
 
@@ -157,25 +330,7 @@ body{
         z-index: -1 !important;
     }
 
-    .book .left h2{
-        font-size: 30px;
-        font-weight: 600;
-        font-family: "Lato", sans-serif;
-        opacity: 0.83;
-    }
-
-    .book .right{
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        width: 100%;
-    }
-    .book .right img{
-        width: 48%;
-        height: auto;
-    }
-
-    .book .left{
-        margin: 20px 0 0 0;
+    .book .content .cover img{
+        width: 70%;
     }
 }
