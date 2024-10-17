@@ -91,6 +91,15 @@ body{
     width: 100%;
 }
 
+.book .content .cover button{
+    border: none;
+    background-color: #B36B53;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 18px;
+    font-size: 14px;
+}
+
 .book .content .detail{
     width: 55%;
     position: relative;
@@ -310,7 +319,7 @@ body{
     }
 
     .book .content .cover img{
-        width: 60%;
+        width: 70%;
     }
 
     .book .content .detail{
@@ -331,6 +340,6 @@ body{
     }
 
     .book .content .cover img{
-        width: 70%;
+        width: 80%;
     }
 }
