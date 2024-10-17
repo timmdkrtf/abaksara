@@ -12,7 +12,7 @@ body{
 
 /* nav */
 .navbar.navbar-expand-lg{
-    padding: 19px 0;
+    padding: 10px 0;
     box-shadow: 0 4px 4px #c4c4c4;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(15px);
@@ -163,8 +163,6 @@ body{
     .book{
         padding: 20px;
     }
-
-    
 }
 
 @media screen and (max-width: 576px) {
