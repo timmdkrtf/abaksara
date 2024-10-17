@@ -99,8 +99,8 @@ body{
     font-family: "Open Sans", sans-serif;
     padding: 6px 18px;
     width: fit-content;
-    margin: 0 auto;
-    font-size: 13px;
+    margin: 20px auto;
+    font-size: 15px;
 }
 
 .book .content .detail{
@@ -125,7 +125,7 @@ body{
     margin: 25px 0 10px 0;
 }
 
-.book .content .detail .title h6{
+.book .content .detail .title h5{
     font-weight: 700;
     font-family: "Lato", sans-serif;
     color: black;
@@ -135,14 +135,15 @@ body{
     display: flex;
     align-items: end;
 }
-.book .content .detail .harga h4{
+.book .content .detail .harga h3{
     opacity: 1;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
 }
 
-.book .content .detail .harga h6{
+.book .content .detail .harga h5{
     text-decoration: line-through;
+    color: #ba1010;
     opacity: 0.4;
     font-size: 14px;
     margin: 0 0 12px 10px;
