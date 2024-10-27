@@ -130,6 +130,7 @@ body{
 .tentang-kami .logo{
     width: 45%;
     margin: auto 0;
+    text-align: center;
 }
 
 .tentang-kami .text{
@@ -168,13 +169,18 @@ body{
 }
 
 .tentang-kami .d-flex .logo img{
-    width: 447px;
-    height: 136px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.tentang-kami .d-flex .logo.right{
+    position: relative;
+    text-align: center;
 }
 
 .tentang-kami .d-flex .logo.right img{
-    width: 420px;
-    height: 175px;
+    width:60%;
+    margin: 0 auto;
 }
 
 .tentang-kami .element-book img{
@@ -1024,13 +1030,11 @@ footer .bottom p{
     }
 
     .tentang-kami .d-flex .logo img{
-        width: 410px;
-        height: 126px;
+        width: 75%;
     }
 
     .tentang-kami .d-flex .logo.right img{
-        width: 400px;
-        height: 156px;
+        width: 65%;
     }
 
     .nilai-perusahaan .title{
@@ -1159,16 +1163,19 @@ footer .bottom p{
 
     .tentang-kami .logo{
         width: 100%;
+        text-align: left;
     }
 
     .tentang-kami .d-flex .logo img{
-        width: 340px;
-        height: 110px;
+        width: 50%;
+    }
+
+    .tentang-kami .d-flex .logo.right{
+        text-align: left;
     }
 
     .tentang-kami .d-flex .logo.right img{
-        width: 340px;
-        height: 150px;
+        width: 40%;
     }
     
     .tentang-kami .text{
@@ -1375,13 +1382,11 @@ footer .bottom p{
     }
 
     .tentang-kami .d-flex .logo img{
-        width: 300px;
-        height: 90px;
+        width: 60%;
     }
 
     .tentang-kami .d-flex .logo.right img{
-        width: 300px;
-        height: 130px;
+        width: 50%;
     }
 
     .merek .title-card{
@@ -1786,11 +1791,6 @@ footer .bottom p{
         margin: 50px 0;
     }
 
-    .tentang-kami .d-flex .logo img{
-        width: 260px;
-        height: 85px;
-    }
-
     .tentang-kami .element-curve img{
         width: 300px;
     }
@@ -1799,6 +1799,14 @@ footer .bottom p{
         width: 120px;
         height: 130px;
         margin: -70px 0px 0 90px;
+    }
+
+    .tentang-kami .d-flex .logo img{
+        width: 70%;
+    }
+
+    .tentang-kami .d-flex .logo.right img{
+        width: 60%;
     }
 
     .merek .title-card{
@@ -1939,15 +1947,6 @@ footer .bottom p{
         height: 260px;
         position: absolute;
         margin: -170px 0 0 -40px;
-    }
-
-    .tentang-kami .d-flex .logo img {
-        width: 260px;
-        height: 80px;
-    }
-    .tentang-kami .d-flex .logo.right img {
-        width: 250px;
-        height: 100px;
     }
 
     .merek .card-merek{
