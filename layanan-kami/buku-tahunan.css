@@ -494,6 +494,23 @@
     font-size: 20px;
 }
 
+.main .packet-custom .container .btn{
+    background-color: #ffffff;
+    color: #008DAD;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin: 30px 0 0 0;
+    padding: 10px 15px;
+    box-shadow: 4px 4px 0 0 #FD9425;
+    transition: 0.3s;
+}
+
+.main .packet-custom .container .btn:hover{
+    box-shadow: 0 0 0 0;
+    border: 2px solid #FD9425;
+
+}
+
 .main .why-us{
     height: 100vh;
     padding: 50px 0;
