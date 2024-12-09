@@ -580,36 +580,38 @@
 
       </script>
 
-    <script>
-        // Dapatkan semua elemen tombol dan konten
-        const buttons = document.querySelectorAll('.nav-tabs button');
-        const contentSections = document.querySelectorAll('.content-portofolio > div');
+<script>
+    // Dapatkan semua elemen tombol dan konten
+    const buttons = document.querySelectorAll('.nav-tabs button');
+    const contentSections = document.querySelectorAll('.content-portofolio > div');
 
-        // Tambahkan event listener ke setiap tombol
-        buttons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Dapatkan target dari tombol
-                const target = button.getAttribute('data-target');
+    // Tambahkan event listener ke setiap tombol
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Dapatkan target dari tombol
+            const target = button.getAttribute('data-target');
 
-                // Sembunyikan semua konten
-                contentSections.forEach(section => {
-                    section.classList.remove('active');
-                });
-
-                // Tampilkan konten yang sesuai dengan tombol
-                const targetSection = document.querySelector(`.${target}`);
-                if (targetSection) {
-                    targetSection.classList.add('active');
-                }
+            // Sembunyikan semua konten
+            contentSections.forEach(section => {
+                section.classList.remove('active');
             });
+
+            // Tampilkan konten yang sesuai dengan tombol
+            const targetSection = document.querySelector(`.${target}`);
+            if (targetSection) {
+                targetSection.classList.add('active');
+            }
         });
+    });
 
-        // Set default tampilan
-        document.querySelector('.content-desain-buku').classList.add('active');
+    // Set default tampilan
+    document.querySelector('.content-desain-buku').classList.add('active');
 
-        const button = document.getElementById('focus');
-        button.focus();
-        button.style.outline = "none";
-    </script>
+    // Fokuskan tombol default tanpa memindahkan scroll
+    const button = document.getElementById('focus');
+    button.focus({ preventScroll: true }); // Fokus tanpa scroll
+    button.style.outline = "none";
+</script>
+
   </body>
 </html>
