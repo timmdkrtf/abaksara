@@ -372,6 +372,19 @@
 .main .konten-tambahan{
     height: 100vh;
     display: flex;
+    position: relative;
+}
+
+.main .konten-tambahan::after{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Elemen\ 11.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    right: 0;
+    bottom: -25px;
+    z-index: -1;
 }
 
 .main .konten-tambahan .image-left{
@@ -484,6 +497,30 @@
 .main .why-us{
     height: 100vh;
     padding: 50px 0;
+    position: relative;
+}
+
+.main .why-us::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 10px;
+    top: 10px;
+    background-color: #FD9425;
+    border-radius: 20px;
+}
+
+.main .why-us::after{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Elemen\ 11.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    right: 0;
+    bottom: -25px;
+    z-index: -1;
 }
 
 .main .why-us .container{
@@ -528,6 +565,35 @@
 .main .portofolio{
     height: auto;
     position: relative;
+    padding: 60px 0 20px 0;
+    box-shadow: 1px 1px 5px 0 #808080;
+    z-index: 1;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.main .portofolio::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 10px;
+    top: 10px;
+    background-color: #008DAD;
+    border-radius: 20px;
+}
+
+.main .portofolio::after{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Group\ 42\ \(1\).png');
+    width: 250px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: -25px;
+    z-index: -1;
 }
 
 .main .portofolio .title h3{
@@ -617,6 +683,19 @@
 .main .klien{
     height: 100vh;
     display: flex;
+    position: relative;
+}
+
+.main .klien::before{
+    content: "";
+    position: absolute;
+    background-image: url('../image/Elemen-left.png');
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    left: 0;
+    bottom: -25px;
+    z-index: -1;
 }
 
 .main .klien .text-left{
