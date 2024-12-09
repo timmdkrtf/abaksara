@@ -1,0 +1,1313 @@
+.navbar.navbar-expand-lg{
+    padding: 15px 0;
+    box-shadow: 0 4px 4px #c4c4c4;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 999 !important;
+    transition: 0.5s;
+}
+
+.navbar-nav{
+    column-gap: 40px;
+}
+
+.navbar-nav .nav-link{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.nav-item.dropdown button{
+    font-size: 18px;
+}
+
+
+.main .opening{
+    background-image: url("../image/kelas-menulis/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main .opening::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px 0 0 0;
+    background-color: #008DAD;
+}
+
+.main .opening .elemen-opening img{
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.main .opening .container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.main .opening .container .card{
+    padding: 60px 35px;
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 450px;
+    position: relative;
+    margin: 90px 0 0 0;
+    z-index: 2;
+}
+
+.main .opening .container .card::after{
+    content: "";
+    position: absolute;
+    background-color: #FD9425;
+    width: 170px;
+    height: 15px;
+    top: -30px;
+    left: -80px;
+}
+
+.main .opening .container .card .text-first img{
+    width: 95px;
+    height: 30px;
+}
+
+.main .opening .container .card .text-first p{
+    font-size: 12px;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main .opening .container .card .text-second h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.main .opening .container .card .text-second h1 span{
+    color: #008DAD;
+}
+
+.main .opening .container .card .text-bottom p{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.main .paket-1{
+    height: 100vh;
+    background-image: url('../image/kelas-menulis/bg9.png');
+    background-size: cover;
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .paket-1 .main-title{
+    position: relative;
+}
+
+.main .paket-1 .main-title::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    background-color: #FD9425;
+    top: 0;
+    right: 0;
+}
+
+.main .paket-1 .main-title h2{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 25px 80px;
+    border-radius: 0 25px 25px 0;
+    font-family: "Lato", sans-serif;
+    font-size:28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.main .paket-1 .main-title h2 span{
+    color: #008DAD;
+}
+
+.main .paket-1 .container .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 40px 0 0 0;
+}
+
+.main .paket-1 .container .content .paket-card{
+    width: calc(33% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 350px;
+}
+
+.main .paket-1 .container .content .paket-card .title{
+    display: flex;
+}
+
+.main .paket-1 .container .content .paket-card .title .blank{
+    width: 15%;
+}
+
+.main .paket-1 .container .content .paket-card .title .price{
+    display: flex;
+    width: 85%;
+    background-color: #393535;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.main .paket-1 .container .content .paket-card .title .price p{
+    margin: 0;
+}
+
+.main .paket-1 .container .content .paket-card .title .price h4{
+    margin: 0;
+    font-weight: 700;
+}
+
+.main .paket-1 .container .content .paket-card .body{
+    display: flex;
+    height: 100%;
+}
+
+.main .paket-1 .container .content .paket-card .body .text-left{
+    width: 15%;
+    height: 100%;
+    background-color: #FD9425;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+.main .paket-1 .container .content .paket-card .body .text-left.first h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-200px);
+}
+.main .paket-1 .container .content .paket-card .body .text-left.second h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-210px);
+}
+.main .paket-1 .container .content .paket-card .body .text-left.third h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-220px);
+}
+
+.main .paket-1 .container .content .paket-card .body .list-right{
+    background-color: #008DAD;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px 20px 20px 10px;
+    width: 85%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main .paket-1 .container .content .paket-card .body .list-right ul li{
+    font-size: 12px;
+}
+
+.main .paket-1 .container .content .paket-card .body .list-right ul li span{
+    font-weight: 600;
+}
+
+.main .paket-2{
+    height: 100vh;
+    background-image: url('../image/kelas-menulis/bg2.png');
+    background-size: cover;
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .paket-2 .main-title{
+    position: relative;
+}
+
+.main .paket-2 .main-title::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    background-color: #FD9425;
+    top: 0;
+    right: 0;
+}
+
+.main .paket-2 .main-title h2{
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 25px 80px;
+    border-radius: 0 25px 25px 0;
+    font-family: "Lato", sans-serif;
+    font-size:28px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.main .paket-2 .main-title h2 span{
+    color: #008DAD;
+}
+
+.main .paket-2 .container .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 40px 0 0 0;
+}
+
+.main .paket-2 .container .content .paket-card{
+    width: calc(33% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 350px;
+}
+
+.main .paket-2 .container .content .paket-card .title{
+    display: flex;
+}
+
+.main .paket-2 .container .content .paket-card .title .blank{
+    width: 15%;
+}
+
+.main .paket-2 .container .content .paket-card .title .price{
+    display: flex;
+    width: 85%;
+    background-color: #393535;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.main .paket-2 .container .content .paket-card .title .price p{
+    margin: 0;
+}
+
+.main .paket-2 .container .content .paket-card .title .price h4{
+    margin: 0;
+    font-weight: 700;
+}
+
+.main .paket-2 .container .content .paket-card .body{
+    display: flex;
+    height: 100%;
+}
+
+.main .paket-2 .container .content .paket-card .body .text-left{
+    width: 15%;
+    height: 100%;
+    background-color: #FD9425;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+.main .paket-2 .container .content .paket-card .body .text-left.first h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-200px);
+}
+.main .paket-2 .container .content .paket-card .body .text-left.second h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-210px);
+}
+.main .paket-2 .container .content .paket-card .body .text-left.third h4{
+    rotate: -90deg;
+    white-space: nowrap;
+    transform: translateX(-220px);
+}
+
+.main .paket-2 .container .content .paket-card .body .list-right{
+    background-color: #008DAD;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px 20px 20px 10px;
+    width: 85%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main .paket-2 .container .content .paket-card .body .list-right ul li{
+    font-size: 12px;
+}
+
+.main .paket-2 .container .content .paket-card .body .list-right ul li span{
+    font-weight: 600;
+}
+
+.main .konten-tambahan{
+    height: 100vh;
+    display: flex;
+}
+
+.main .konten-tambahan .image-left{
+    width: 40%;
+}
+
+.main .konten-tambahan .image-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.main .konten-tambahan .content{
+    width: 60%;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main .konten-tambahan .content .title h2{
+    text-transform: uppercase;
+    color: #008DAD;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.main .konten-tambahan .content .content-tambahan{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 30px 0 0 0;
+}
+
+.main .konten-tambahan .content .content-tambahan .box{
+    padding: 10px 20px;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main .konten-tambahan .content .content-tambahan .box.blue{
+    background-color: #008DAD;
+}
+.main .konten-tambahan .content .content-tambahan .box p{
+    margin: 0;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.main .konten-tambahan .content .content-tambahan .box.orange{
+    background-color: #FD9425;
+}
+
+.main .packet-custom{
+    height: 100vh;
+    background-image: url('../image/kelas-menulis/bg7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.main .packet-custom .main-title {
+    position: relative;
+}
+
+.main .packet-custom .main-title::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    background-color: #FD9425;
+    top: 0;
+    right: 0;
+}
+
+.main .packet-custom .main-title h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 25px 80px;
+    border-radius: 0 25px 25px 0;
+}
+
+.main .packet-custom .main-title h3 span{
+    color: #008DAD;
+}
+
+.main .packet-custom .container .desc{
+    width: 40%;
+    background-color: #008DAD;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.main .why-us{
+    height: 100vh;
+    padding: 50px 0;
+}
+
+.main .why-us .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.main .why-us .container .title h3{
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main .why-us .container .title h3 span{
+    color: #008DAD;
+}
+
+.main .why-us .container .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 80px;
+    margin: 30px 0 0 0;
+}
+
+.main .why-us .container .content .card{
+    width: calc(50% - 40px);
+    border: none;
+}
+
+.main .why-us .container .content .card h6{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main .why-us .container .content .card p{
+    font-family: "Open Sans", sans-serif;
+}
+
+.main .portofolio{
+    height: auto;
+    position: relative;
+}
+
+.main .portofolio .title h3{
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+.main .portofolio .title h3 span{
+    color: #008DAD;
+}
+
+.main .portofolio .container .content-portofolio .content-desain-buku{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main .portofolio .container .content-portofolio .content-desain-buku img{
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main .portofolio .container .content-portofolio .content-fotografi{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main .portofolio .container .content-portofolio .content-fotografi img{
+    width: calc(33% - 20px);
+}
+
+.main .portofolio .container .content-portofolio .content-detail-halaman{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main .portofolio .container .content-portofolio .content-detail-halaman img{
+    width: calc(25% - 15px);
+}
+
+.main .container .nav-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px 0 50px 0;
+    gap: 20px;
+    border: none;
+}
+
+.main .container .nav-tabs button{
+    border: 1px solid #008DAD;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main .container .nav-tabs button:hover{
+    background-color: #008DAD;
+    color: #ffffff;
+    box-shadow: 2px 2px 0 0 #FD9425;
+}
+
+.main .container .nav-tabs button:focus{
+    background-color: #008DAD;
+    color: #ffffff;
+    box-shadow: 2px 2px 0 0 #FD9425;
+}
+
+.content-portofolio > div {
+    display: none;
+}
+.content-portofolio > .active {
+    display: flex;
+}
+
+.main .klien{
+    height: 100vh;
+    display: flex;
+}
+
+.main .klien .text-left{
+    width: 65%;
+    padding: 100px;
+}
+
+.main .klien .text-left .title h3{
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+}
+
+.main .klien .text-left .title h3::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 8px;
+    background-color: #FD9425;
+    bottom: -25px;
+    left: 0;
+}
+
+.main .klien .text-left .title h3 span{
+    color: #008DAD;
+}
+
+.main .klien .text-left .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 0 0;
+    padding: 0 50px;
+    gap: 50px;
+}
+
+.main .klien .text-left .content img{
+    width: calc(35% - 30px);
+    object-fit: contain;
+}
+
+.main .klien .bg-right{
+    width: 35%;
+}
+
+.main .klien .bg-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .testimoni{
+    height: auto;
+    background-color: #008DAD;
+    padding: 0 0 60px 0;
+    box-shadow: -1px -1px 5px 0 #808080;
+}
+
+.main .testimoni .title h3{
+    color: #000000;
+    background-color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0;
+}
+
+.main .testimoni .title h3 span{
+    color: #008DAD;
+} 
+
+.main .testimoni .container .testi-content{
+    margin: 100px 0 0 0;
+}
+
+.main .testimoni .container .testi-content .testi-card{
+    display: flex;
+    width: 40%;
+    margin: 10px 0 0 0;
+}
+
+.main .testimoni .container .testi-content .testi-card .profile {
+    position: relative;
+    display: inline-block;
+    z-index: 1 !important;
+}
+
+.main .testimoni .container .testi-content .testi-card .profile svg{
+    width: 90px;
+    color: #008DAD;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    border: 15px solid #008DAD;
+}
+
+.main .testimoni .container .testi-content .testi-card .profile::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    right: -10px;
+    top: 0;
+    z-index: -1 !important;
+    background-color: #ffffff;
+}
+
+.main .testimoni .container .testi-content .testi-card .comment{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 12px;
+    border-radius: 0 20px 20px 20px;
+}
+
+.main .testimoni .container .testi-content .testi-card .comment h5{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+
+.main .testimoni .container .testi-content .testi-card .comment p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+
+.main .testimoni .container .testi-content .testi-card .comment small{
+    font-family: "Open Sans", sans-serif;
+    text-align: end;
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    padding: 0 5px 0 0;
+}
+
+footer{
+    background-image: url('../image/kelas-menulis/bg9.png');
+    height: auto;
+    width: 100%;
+    margin-bottom: -20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 90%;
+    padding: 50px 0 0 0;
+    color: rgb(0, 0, 0);
+    box-shadow: -1px -1px 3px 0 #777777;
+}
+
+footer .row h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    font-family: "Lato", sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+footer .row h2 span{
+    color: #008DAD;
+}
+
+footer .row h2::before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 6px;
+    background-color: #FD9425;
+    bottom: -15px;
+}
+
+footer .row p{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.85;
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer .row h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 7px 0 15px 0;
+    font-family: "Lato", sans-serif;
+}
+footer .row ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px 0 0 0;
+}
+
+footer .row ul li{
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+footer .row .link-contact a{
+    transition: 0.3s;
+}
+
+footer .row .link-contact a:hover{
+    margin: 0 0 0 10px;
+    text-decoration: dashed !important;
+}
+
+footer .row p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    text-align: end;
+    height: 100%;
+    margin: 0 0 auto 0;
+}
+
+footer hr{
+    margin-top: 40px;
+}
+
+footer .bottom p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+    .main .paket-1 .container .content .paket-card .title .price p{
+        font-size: 14px;
+    }
+
+    .main .paket-1 .container .content .paket-card .title .price h4{
+        font-size: 20px;
+    }
+
+    .main .paket-1 .container .content .paket-card .body .list-right{
+        padding: 15px 15px 15px 0px;
+    }
+
+    .main .paket-1 .container .content{
+        gap: 30px;
+    }
+
+    .main .paket-1 .container .content .paket-card{
+        width: calc(33% - 18px);
+    }
+    .main .paket-2 .container .content .paket-card .title .price p{
+        font-size: 14px;
+    }
+
+    .main .paket-2 .container .content .paket-card .title .price h4{
+        font-size: 20px;
+    }
+
+    .main .paket-2 .container .content .paket-card .body .list-right{
+        padding: 15px 15px 15px 0px;
+    }
+
+    .main .paket-2 .container .content{
+        gap: 30px;
+    }
+
+    .main .paket-2 .container .content .paket-card{
+        width: calc(33% - 18px);
+    }
+
+    .main .konten-tambahan .content{
+        padding: 100px 70px;
+    }
+
+    .main .klien .text-left .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0 0 0;
+        padding: 0 50px;
+        gap: 50px;
+    }
+
+    .main .klien .text-left .content img{
+        width: calc(50% - 30px);
+    }
+}
+@media screen and (max-width: 991px) {
+
+    .main .paket-1{
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .main .paket-1 .main-title::after{
+        width: 150px;
+        height: 10px;
+    }
+
+    .main .paket-1 .main-title h2{
+        font-size: 25px;
+        padding: 20px 50px;
+    }
+
+    .main .paket-1 .container .content{
+        justify-content: center;
+    }
+
+    .main .paket-1 .container .content .paket-card{
+        width: calc(50% - 15px);
+    }
+    
+    .main .paket-1 .container .content .paket-card .body .text-left.first h4{
+        transform: translateX(-165px);
+    }
+    .main .paket-1 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-175px);
+    }
+    .main .paket-1 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-210px);
+    }
+    .main .paket-2{
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .main .paket-2 .main-title::after{
+        width: 150px;
+        height: 10px;
+    }
+
+    .main .paket-2 .main-title h2{
+        font-size: 25px;
+        padding: 20px 50px;
+    }
+
+    .main .paket-2 .container .content{
+        justify-content: center;
+    }
+
+    .main .paket-2 .container .content .paket-card{
+        width: calc(50% - 15px);
+    }
+    
+    .main .paket-2 .container .content .paket-card .body .text-left.first h4{
+        transform: translateX(-165px);
+    }
+    .main .paket-2 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-175px);
+    }
+    .main .paket-2 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-210px);
+    }
+
+    .main .packet-custom{
+        background-position: 60% 60%;
+    }
+
+    .main .packet-custom .container .desc{
+        width: 60%;
+    }
+
+    .main .why-us .container .content{
+        gap: 10px 50px;
+    }
+
+    .main .why-us .container .content .card{
+        width: calc(50% - 25px);
+    }
+
+    .main .klien .text-left .content img{
+        width: calc(50% - 27px);
+    }
+
+    .main .klien .text-left .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0 0 0;
+        padding: 0;
+        gap: 50px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .main .paket-1 .main-title h2{
+        font-size: 23px;
+    }
+
+    .main .paket-1 .container .content{
+        gap: 50px;
+    }
+
+    .main .paket-1 .container .content .paket-card{
+        width: 70%;
+        min-height: auto;
+    }
+
+    .main .paket-1 .container .content .paket-card .body .text-left.first h4{
+        transform: translateX(-130px);
+    }
+    .main .paket-1 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-165px);
+    }
+    .main .paket-1 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-190px);
+    }
+
+    .main .paket-2 .main-title h2{
+        font-size: 23px;
+    }
+
+    .main .paket-2 .container .content{
+        gap: 50px;
+    }
+
+    .main .paket-2 .container .content .paket-card{
+        width: 70%;
+        min-height: auto;
+    }
+
+    .main .paket-2 .container .content .paket-card .body .text-left.first h4{
+        transform: translateX(-130px);
+    }
+    .main .paket-2 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-165px);
+    }
+    .main .paket-2 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-190px);
+    }
+
+    .main .konten-tambahan{
+        flex-direction: column;
+    }
+
+    .main .konten-tambahan .image-left{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .main .konten-tambahan .image-left img{
+        width: 100%;
+        height: 100%;
+        object-position: 100% 100%;
+    }
+
+    .main .konten-tambahan .content{
+        width: 100%;
+        padding: 50px;
+    }
+
+    .main .packet-custom .container .desc{
+        width: 70%;
+    }
+
+    .main .why-us .container .content .card p{
+        font-size: 14px;
+    }
+
+    .main .why-us .container .content{
+        gap: 10px 40px;
+    }
+
+    .main .why-us .container .content .card{
+        width: calc(50% - 20px);
+    }
+
+    .main .portofolio .title h3{
+        font-size: 32px;
+    }
+
+    .main .portofolio .container .content-portofolio .content-desain-buku img{
+        width: 45%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .main .portofolio .container .content-portofolio .content-fotografi img{
+        width: calc(50% - 15px);
+    }
+
+    .main .portofolio .container .content-portofolio .content-detail-halaman img{
+        width: calc(50% - 10px);
+    }
+
+    .main .klien{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .main .klien .bg-right{
+        width: 100%;
+    }
+    
+    .main .klien .bg-right img{
+        width: 100%;
+        height: 300px;
+        object-position: 80% 60%;
+        object-fit: cover;
+    }
+
+    .main .klien .text-left{
+        width: 100%;
+    }
+
+    footer .row{
+        gap: 40px;
+    }
+
+    footer .row p{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+
+    .main .paket-1 .main-title h2{
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    .main .opening .container .card .text-first p{
+        font-size: 12px;
+    }
+
+    .main .opening .container .card .text-second h1{
+        font-size: 22px;
+    }
+
+    .main .paket-1 .container .content .paket-card{
+        width: 85%;
+        min-height: auto;
+    }
+
+    .main .paket-1 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-175px);
+    }
+    .main .paket-1 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-200px);
+    }
+
+    .main .paket-2 .container .content .paket-card{
+        width: 85%;
+        min-height: auto;
+    }
+
+    .main .paket-2 .container .content .paket-card .body .text-left.second h4{
+        transform: translateX(-175px);
+    }
+    .main .paket-2 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-200px);
+    }
+
+    .main .konten-tambahan .content{
+        width: 100%;
+        padding: 50px 10px;
+    }
+
+    .main .konten-tambahan .content .content-tambahan{
+        gap: 20px;
+    }
+
+    .main .konten-tambahan .content .content-tambahan .box{
+        width: calc(50% - 10px);
+    }
+
+    .main .konten-tambahan .content .content-tambahan .box p{
+        margin: 0;
+        color: #ffffff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+    }
+
+    .main .packet-custom .container .desc{
+        width: 100%;
+    }
+
+    .main .packet-custom .main-title h3{
+        font-size: 32px;
+        padding: 20px 40px;
+    }
+
+    .main .packet-custom .main-title::after{
+        width: 150px;
+        height: 10px;
+    }
+
+    .main .why-us{
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .main .why-us .container .content .card{
+        width: 100%;
+    }
+
+    .main .portofolio .container .content-portofolio .content-fotografi{
+        gap: 15px;
+    }
+
+    .main .portofolio .container .content-portofolio .content-fotografi img{
+        width: calc(50% - 10px);
+    }
+
+    .main .portofolio .container .content-portofolio .content-desain-buku img{
+        width: 70%;
+    }
+
+    .main .klien{
+        gap: 50px;
+    }
+
+    .main .klien .text-left .content img{
+        width: calc(40% - 27px);
+    }
+
+    .main .klien .text-left{
+        padding: 20px;
+    }
+
+    .main .klien .text-left .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0;
+        padding: 0;
+        gap: 50px;
+    }
+
+    footer .row p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main .opening .container .card .text-first img{
+        width: 60px;
+        height: 20px;
+    }
+
+    .main .opening .container .card .text-first p{
+        font-size: 11px;
+    }
+
+    .main .opening .container .card .text-second h1{
+        font-size: 20px;
+    }
+
+    .main .paket-1 .container .content .paket-card{
+        width: 100%;
+    }
+
+    .main .paket-1 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-220px);
+    }
+
+    .main .paket-1 .main-title h2{
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .main .paket-2 .main-title h2{
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .main .paket-2 .container .content .paket-card{
+        width: 100%;
+    }
+
+    .main .paket-2 .container .content .paket-card .body .text-left.third h4{
+        transform: translateX(-220px);
+    }
+
+    .main .klien .text-left .title h3{
+        font-size: 32px;
+    }
+
+    .main .klien .text-left .content img{
+        width: calc(50% - 27px);
+    }
+}
