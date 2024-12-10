@@ -74,6 +74,7 @@
 
 .main .opening .container .card .text-first p{
     font-size: 12px;
+    font-weight: 500;
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
@@ -95,6 +96,8 @@
 .main .opening .container .card .text-bottom p{
     font-style: italic;
     font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
 }
 
 .main .why{
@@ -226,7 +229,8 @@
 }
 
 .main .target .container .title p{
-    width: 25%;
+    width: 30%;
+    font-size: 15px;
     margin: 50px 0 0 0;
     text-align: justify;
     font-family: "Open Sans", sans-serif;
@@ -236,7 +240,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .main .target .container .content .card{
@@ -438,6 +442,25 @@
     font-size: 13px;
     border-radius: 10px;
     height: 250px;
+}
+
+.main .choose-program .container .button-order{
+    text-align: center;
+    margin: -20px 0 0 0;
+}
+
+.main .choose-program .container .button-order a{
+    background-color: #ffffff;
+    border: 2px solid #FD9425;
+    color: #008DAD;
+    padding: 12px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.main .choose-program .container .button-order a:hover{
+    background-color: #FD9425;
+    color: #ffffff;
 }
 
 .main .benefit-program{
@@ -669,7 +692,7 @@ footer .bottom p{
 
 .pilihan-kelas-menulis .content .body .kelas .desc p{
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .pilihan-kelas-menulis .content .body .kelas .desc a{
@@ -690,6 +713,10 @@ footer .bottom p{
 @media screen and (max-width: 1200px) {
     .main .target .container .content .card{
         width: 30%;
+    }
+
+    .main .target .container .title p{
+        width: 35%;
     }
 
     .main .choose-program .container .content .card{
@@ -720,7 +747,7 @@ footer .bottom p{
     }
 
     .main .target .container .title p{
-        width: 40%;
+        width: 45%;
     }
 
     .main .target .container .content{
@@ -776,7 +803,7 @@ footer .bottom p{
     }
 
     .main .target .container .title p{
-        width: 50%;
+        width: 65%;
     }
 
     .main .offer-program .bg-left{
@@ -908,7 +935,7 @@ footer .bottom p{
     }
 
     .main .target .container .title p{
-        width: 80%;
+        width: 85%;
     }
     .main .target .container .content{
         gap: 20px;
@@ -1020,6 +1047,10 @@ footer .bottom p{
 
     .main .target .container .content .card{
         width: 80%;
+    }
+
+    .main .target .container .title p{
+        width: 95%;
     }
 
     .main .offer-program .content .title h2{
