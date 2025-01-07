@@ -967,18 +967,10 @@ footer .row ul{
 
 footer .row ul li{
     opacity: 1;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
+    opacity: 0.8;
     padding: 5px;
-}
-
-footer .row .link-contact a{
-    transition: 0.3s;
-}
-
-footer .row .link-contact a:hover{
-    margin: 0 0 0 10px;
-    text-decoration: dashed !important;
 }
 
 footer hr{
