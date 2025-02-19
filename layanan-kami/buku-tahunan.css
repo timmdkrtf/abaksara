@@ -869,6 +869,55 @@
     padding: 0 5px 0 0;
 }
 
+.main .instagram{
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.main .instagram .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .instagram .content .title h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-family: 26px;
+    background-color: #FD9425;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 5px 0 0 #008DAD;
+    text-align: center;
+}
+
+.main .instagram .content a{
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+.main .instagram .content a:hover{
+    box-shadow: 0 0 10px 1px #b6b6b6;
+}
+
+.main .instagram .content a img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.main .instagram .content a p{
+    margin-top: -15px;
+    font-family: "Open Sans", sans-serif;
+}
+
 footer{
     background-image: url('../image/kelas-menulis/bg9.png');
     height: auto;
