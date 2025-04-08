@@ -2078,4 +2078,8 @@ footer .bottom p{
         width: 110px;
         height: 50px;
     } */
+
+    footer .bottom p{
+        font-size: 11px;
+    }
 }
