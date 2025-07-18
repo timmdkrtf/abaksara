@@ -233,3 +233,48 @@
 .Lato {
   font-family: "Lato", sans-serif;
 }
+
+@media screen and (max-width: 991px) {
+
+  .majmu .content .cover {
+    width: 35%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .majmu .container {
+    padding: 15px 0 0 0;
+  }
+
+  .majmu {
+    padding: 20px;
+  }
+
+  .majmu .content {
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px 0 50px 0;
+  }
+
+  .majmu .content .cover {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .majmu .content .cover img {
+    width: 60%;
+  }
+
+  .majmu .content .detail {
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .majmu .content .cover img {
+    width: 70%;
+  }
+}
