@@ -157,15 +157,15 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   padding: 10px 20px;
+  border-radius: 50px;
   color: #545454;
-  box-shadow: 0 3px 0 0 #545454;
   transition: 0.3s ease-in-out;
 }
 
 .majmu .content .detail a button:hover {
   background-color: #ffffff;
   background-color: #7f2440;
-  box-shadow: 4px 4px 0 0 #D3C4A9;
+  box-shadow: 0 4px 0 0 #D3C4A9;
   color: #ffffff;
   margin: 0 0 0 5px;
 }
