@@ -887,6 +887,14 @@ body{
     flex-wrap: wrap;
 }
 
+.klien .d-flex .logo-klien p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    margin: 7px 0 0 0;
+}
+
 .klien .d-flex .logo-klien.realtour img{
     width: 195px;
     height: 45px;
@@ -925,6 +933,10 @@ body{
     object-fit: contain;
     width: 150px;
     height: 80px;
+}
+
+.klien .d-flex .logo-klien.cimandala img{
+    filter: drop-shadow(0 0 1px #000);
 }
 
 footer{
