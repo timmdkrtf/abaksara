@@ -89,8 +89,8 @@
 }
 
 .majmu .content .detail .title h5 {
-  font-weight: 600;
-  opacity: 0.9;
+  font-weight: 700;
+  opacity: 0.8;
 }
 
 .majmu .content .detail .harga {
@@ -143,10 +143,10 @@
 }
 
 .majmu .content .detail .jenis-buku .button button.active {
-  border: 1px solid #306030;
-  background-color: #306030;
+  border: 1px solid #7f2440;
+  background-color: #7f2440;
   color: #ffffff;
-  box-shadow: 2px 2px 0 0 #141212;
+  box-shadow: 2px 2px 0 0 #D3C4A9;
   opacity: 1;
   font-weight: 600;
 }
