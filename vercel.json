@@ -1,4 +1,10 @@
 {
-    "cleanUrls": true
+    "cleanUrls": true,
+    "redirects": [
+      {
+        "source": "/kronika/books/:slug",
+        "destination": "https://www.kronika.co.id/books/:slug",
+        "permanent": true
+      }
+    ]
 }
-  
