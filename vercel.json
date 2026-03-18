@@ -1,10 +1,15 @@
 {
-    "cleanUrls": true,
-    "redirects": [
-      {
-        "source": "/kronika/books/:slug",
-        "destination": "https://www.kronika.co.id/books/:slug",
-        "permanent": true
-      }
-    ]
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/kronika/books/:slug",
+      "destination": "https://www.kronika.co.id/books/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/apostrof/buku/:slug",
+      "destination": "https://www.apostrof.co.id/buku/:slug",
+      "permanent": true
+    }
+  ]
 }
